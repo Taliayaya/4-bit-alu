@@ -430,6 +430,22 @@
     [
       "4987240f-8890-46b8-b8e9-0d60580cb205",
       "Root"
+    ],
+    [
+      "10a3732c-bf63-42c8-b0c5-c029ff8b8938",
+      "1-bit-adder"
+    ],
+    [
+      "dde0e48b-d316-4fbd-8778-cd8a135129ba",
+      "1-bit-adder1"
+    ],
+    [
+      "d1db8f6e-5205-451b-aac4-82dec57d8ab8",
+      "1-bit-adder2"
+    ],
+    [
+      "2ab78124-47e9-4404-842f-89ef59ad6ac3",
+      "1-bit-adder3"
     ]
   ],
   "text_variables": {}
