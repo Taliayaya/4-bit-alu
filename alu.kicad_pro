@@ -446,6 +446,10 @@
     [
       "2ab78124-47e9-4404-842f-89ef59ad6ac3",
       "1-bit-adder3"
+    ],
+    [
+      "aa82501c-f64e-4aae-993a-f2540e2bded8",
+      "2-bit-mul"
     ]
   ],
   "text_variables": {}
