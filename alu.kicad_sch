@@ -4039,7 +4039,7 @@
 	)
 	(rectangle
 		(start 77.47 156.21)
-		(end 167.64 191.77)
+		(end 170.18 191.77)
 		(stroke
 			(width 0)
 			(type default)
@@ -5927,7 +5927,7 @@
 			)
 		)
 	)
-	(global_label "IN_A1"
+	(global_label "OUT_MUL_0"
 		(shape input)
 		(at 154.94 166.37 0)
 		(fields_autoplaced yes)
@@ -5939,7 +5939,7 @@
 		)
 		(uuid "70382253-8330-472e-b4b9-6b0c45fc92d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.1262 166.37 0)
+			(at 168.5085 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6213,7 +6213,7 @@
 			)
 		)
 	)
-	(global_label "IN_A1"
+	(global_label "OUT_MUL_1"
 		(shape input)
 		(at 154.94 176.53 0)
 		(fields_autoplaced yes)
@@ -6225,7 +6225,7 @@
 		)
 		(uuid "e50a6f52-0ce0-47f8-b011-c3260048acc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.1262 176.53 0)
+			(at 168.5085 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +6257,7 @@
 			)
 		)
 	)
-	(global_label "IN_A1"
+	(global_label "OUT_MUL_3"
 		(shape input)
 		(at 154.94 181.61 0)
 		(fields_autoplaced yes)
@@ -6269,7 +6269,7 @@
 		)
 		(uuid "ec0c3a74-b6cd-442f-8224-94efba79c6e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.1262 181.61 0)
+			(at 168.5085 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,7 +6279,7 @@
 			)
 		)
 	)
-	(global_label "IN_A1"
+	(global_label "OUT_MUL_2"
 		(shape input)
 		(at 154.94 171.45 0)
 		(fields_autoplaced yes)
@@ -6291,7 +6291,7 @@
 		)
 		(uuid "ed754ab9-7cb9-415f-b0de-982c36a165b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.1262 171.45 0)
+			(at 168.5085 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
