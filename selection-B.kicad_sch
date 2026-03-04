@@ -4282,14 +4282,14 @@
 	(symbol
 		(lib_id "74xx:74LS08")
 		(at 113.03 161.29 0)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eb80b80-c2c9-4d7b-a7a1-54047c3db97c")
-		(property "Reference" "U14"
+		(property "Reference" "U10"
 			(at 113.0217 152.4 0)
 			(effects
 				(font
@@ -4377,8 +4377,8 @@
 		(instances
 			(project ""
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
-					(reference "U14")
-					(unit 2)
+					(reference "U10")
+					(unit 4)
 				)
 			)
 		)
@@ -5314,14 +5314,14 @@
 	(symbol
 		(lib_id "74xx:74LS08")
 		(at 113.03 147.32 0)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a12be04b-aa6d-403f-8681-fbf66c9aa476")
-		(property "Reference" "U14"
+		(property "Reference" "U10"
 			(at 113.0217 138.43 0)
 			(effects
 				(font
@@ -5409,114 +5409,8 @@
 		(instances
 			(project ""
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS08")
-		(at 247.65 143.51 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7f3d7ab-3847-4606-9ebf-29ec95e96022")
-		(property "Reference" "U14"
-			(at 254 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74LS08"
-			(at 254 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 247.65 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad And2"
-			(at 247.65 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0e0a2356-a083-4af4-9b23-359fda60db8c")
-		)
-		(pin "12"
-			(uuid "fca912b1-e472-447e-9219-173b02da2665")
-		)
-		(pin "9"
-			(uuid "1790bd54-fb00-4835-9f53-074b2e08f43c")
-		)
-		(pin "7"
-			(uuid "dba598a3-e5ec-4553-94f0-68f6d791093e")
-		)
-		(pin "11"
-			(uuid "e7c0f470-a1ef-43ed-bcbb-980d9faaaff7")
-		)
-		(pin "13"
-			(uuid "88a21db2-6ff3-4ae0-accc-60282fb86e06")
-		)
-		(pin "1"
-			(uuid "41317854-7863-4bed-971b-b4f319ed4916")
-		)
-		(pin "10"
-			(uuid "0f331c39-7ec6-4d8f-8df1-8a2de91b18ec")
-		)
-		(pin "14"
-			(uuid "c1fb6993-50d7-4d9d-9cb6-7c95796b1ae6")
-		)
-		(pin "8"
-			(uuid "ea7ac30f-4196-4318-9b6a-060788ea7847")
-		)
-		(pin "4"
-			(uuid "6b8c50fa-f934-4ead-963e-fbec9ce86868")
-		)
-		(pin "3"
-			(uuid "013118e8-9405-4d2e-92ae-125f1f394b14")
-		)
-		(pin "6"
-			(uuid "8a3720ea-4b80-4894-8b14-41309f0b7eb4")
-		)
-		(pin "5"
-			(uuid "60b3565b-cdd7-48c0-bdb3-443c55089fd9")
-		)
-		(instances
-			(project ""
-				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
-					(reference "U14")
-					(unit 5)
+					(reference "U10")
+					(unit 3)
 				)
 			)
 		)
@@ -6069,72 +5963,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 247.65 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfc9b024-ba62-4e04-9038-dc035a3edc82")
-		(property "Reference" "#PWR028"
-			(at 247.65 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 247.65 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 247.65 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df0d759a-bebf-4e2d-bd05-f65e1546bcbf")
-		)
-		(instances
-			(project ""
-				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74LS32")
 		(at 132.08 69.85 0)
 		(unit 2)
@@ -6338,72 +6166,6 @@
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
 					(reference "U15")
 					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 247.65 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de486a20-eab4-4872-833e-5ca3faf08cbf")
-		(property "Reference" "#PWR033"
-			(at 247.65 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 247.65 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d13cf3e2-8fa6-4cde-a3e2-f0c717f3e67d")
-		)
-		(instances
-			(project ""
-				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
-					(reference "#PWR033")
-					(unit 1)
 				)
 			)
 		)

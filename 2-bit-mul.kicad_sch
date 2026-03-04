@@ -2050,6 +2050,18 @@
 		(color 0 0 0 0)
 		(uuid "e889c958-561c-4208-9cf7-08ea41ebf2cf")
 	)
+	(no_connect
+		(at 194.31 88.9)
+		(uuid "09119d42-441d-460b-9090-f61139b0e4ea")
+	)
+	(no_connect
+		(at 209.55 86.36)
+		(uuid "685e165d-c874-4dfe-a016-95537bf7b443")
+	)
+	(no_connect
+		(at 194.31 83.82)
+		(uuid "882faa53-7be1-4982-a447-81a4074639e8")
+	)
 	(wire
 		(pts
 			(xy 54.61 46.99) (xy 54.61 82.55)
@@ -4063,6 +4075,110 @@
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/aa82501c-f64e-4aae-993a-f2540e2bded8"
 					(reference "U8")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC86")
+		(at 201.93 86.36 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcc88382-4438-429b-854f-296a3202d080")
+		(property "Reference" "U8"
+			(at 201.6252 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC86"
+			(at 201.6252 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC86"
+			(at 201.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 2-input XOR"
+			(at 201.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "5fc80c99-5778-4c8e-9d39-772ca47c6924")
+		)
+		(pin "13"
+			(uuid "5a4e4a7f-06fb-452a-8ceb-79ca393d32ce")
+		)
+		(pin "8"
+			(uuid "6d216230-88d0-481a-80b9-689b98bf03ee")
+		)
+		(pin "12"
+			(uuid "9b1fa4e9-f8d3-45c3-bd89-968e46afd645")
+		)
+		(pin "9"
+			(uuid "c959005c-70ca-42f4-8e55-827824abc6e3")
+		)
+		(pin "2"
+			(uuid "61f96594-3f88-4544-82bd-21ad8fd08c15")
+		)
+		(pin "1"
+			(uuid "1d5051f5-6391-4edb-b619-de4832592f82")
+		)
+		(pin "4"
+			(uuid "c931478a-ebeb-4c85-8a56-161364a3af7a")
+		)
+		(pin "3"
+			(uuid "3048ae76-5892-48a8-8aee-7f55badb820e")
+		)
+		(pin "7"
+			(uuid "614b6734-e989-4f5a-b621-eec138bff2f5")
+		)
+		(pin "14"
+			(uuid "9c2cdb00-7ea0-45d4-a92f-9b50e4ac3e37")
+		)
+		(pin "11"
+			(uuid "9b186423-b97e-4b86-bbfc-425c357998e1")
+		)
+		(pin "6"
+			(uuid "0ad0616f-2c4f-4472-b9fd-892bd8b1e3e3")
+		)
+		(pin "5"
+			(uuid "f800babe-5aa3-4d38-bf4c-eb931a02f59b")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/aa82501c-f64e-4aae-993a-f2540e2bded8"
+					(reference "U8")
+					(unit 4)
 				)
 			)
 		)
