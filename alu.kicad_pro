@@ -414,6 +414,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -450,6 +458,18 @@
     [
       "aa82501c-f64e-4aae-993a-f2540e2bded8",
       "2-bit-mul"
+    ],
+    [
+      "54811f93-c5c3-45f8-b60d-f728802dc286",
+      "binary-decoder"
+    ],
+    [
+      "30c1ae8d-c878-40aa-ace0-371f489a4d3c",
+      "selection-A"
+    ],
+    [
+      "e08b8046-a666-4685-8ce4-06ee0f7f0287",
+      "selection-B"
     ]
   ],
   "text_variables": {}
