@@ -1511,7 +1511,7 @@
 			(uuid "0e6850a4-e7e4-4b54-b7e5-94cb447abe5b")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/5c1c7519-ef63-46db-b588-8e7d91f6be11"
 					(reference "#PWR043")
 					(unit 1)
@@ -1615,7 +1615,7 @@
 			(uuid "188602f5-3457-4348-ada1-587cb3088456")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/5c1c7519-ef63-46db-b588-8e7d91f6be11"
 					(reference "U11")
 					(unit 4)
@@ -1721,7 +1721,7 @@
 			(uuid "188602f5-3457-4348-ada1-587cb3088457")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/5c1c7519-ef63-46db-b588-8e7d91f6be11"
 					(reference "U11")
 					(unit 5)
@@ -1825,7 +1825,7 @@
 			(uuid "188602f5-3457-4348-ada1-587cb3088458")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/5c1c7519-ef63-46db-b588-8e7d91f6be11"
 					(reference "U11")
 					(unit 3)
@@ -1929,7 +1929,7 @@
 			(uuid "188602f5-3457-4348-ada1-587cb3088459")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/5c1c7519-ef63-46db-b588-8e7d91f6be11"
 					(reference "U11")
 					(unit 1)
@@ -1995,7 +1995,7 @@
 			(uuid "f0cc0ffa-9e78-4dc8-a925-15267d252659")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/5c1c7519-ef63-46db-b588-8e7d91f6be11"
 					(reference "#PWR044")
 					(unit 1)
@@ -2099,7 +2099,7 @@
 			(uuid "188602f5-3457-4348-ada1-587cb308845a")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/5c1c7519-ef63-46db-b588-8e7d91f6be11"
 					(reference "U11")
 					(unit 2)

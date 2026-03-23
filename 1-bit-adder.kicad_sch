@@ -3120,7 +3120,7 @@
 			(uuid "134b37e6-e7f7-4c6d-9dea-782961033cc5")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/10a3732c-bf63-42c8-b0c5-c029ff8b8938"
 					(reference "U1")
 					(unit 2)
@@ -3236,7 +3236,7 @@
 			(uuid "134b37e6-e7f7-4c6d-9dea-782961033cc6")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/10a3732c-bf63-42c8-b0c5-c029ff8b8938"
 					(reference "U1")
 					(unit 1)
@@ -3352,7 +3352,7 @@
 			(uuid "a3fa710e-880b-4faa-9be5-3b2d3b38dc8d")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/10a3732c-bf63-42c8-b0c5-c029ff8b8938"
 					(reference "U3")
 					(unit 1)
@@ -3468,7 +3468,7 @@
 			(uuid "25429e1d-6bcf-48b8-aa69-9411db16903f")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/10a3732c-bf63-42c8-b0c5-c029ff8b8938"
 					(reference "U2")
 					(unit 1)
@@ -3584,7 +3584,7 @@
 			(uuid "25429e1d-6bcf-48b8-aa69-9411db169040")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/10a3732c-bf63-42c8-b0c5-c029ff8b8938"
 					(reference "U2")
 					(unit 2)

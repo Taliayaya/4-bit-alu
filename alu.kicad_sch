@@ -8105,7 +8105,7 @@
 			(uuid "3662b9cc-4bc3-4949-96c0-34d135e62b55")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "U2")
 					(unit 5)
@@ -8172,7 +8172,7 @@
 			(uuid "c623c2ba-346a-4aa3-9cb8-0e6940461b39")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "#FLG00")
 					(unit 1)
@@ -8238,7 +8238,7 @@
 			(uuid "cab33595-ca89-4492-9b6e-e7136743d438")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "#PWR019")
 					(unit 1)
@@ -8441,7 +8441,7 @@
 			(uuid "fcafc11e-667c-4413-bc32-418fd7801a83")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "#PWR03")
 					(unit 1)
@@ -8547,7 +8547,7 @@
 			(uuid "a563dcbc-533a-465a-b9a9-036e34ee1dcb")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "U1")
 					(unit 5)
@@ -8795,7 +8795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 33.02 35.56 0)
 			(effects
 				(font
@@ -8847,7 +8847,7 @@
 			(uuid "7095d9f7-465c-466f-ae36-b1ea2a1a20d6")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "SW0")
 					(unit 1)
@@ -8987,7 +8987,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 86.36 33.02 0)
 			(effects
 				(font
@@ -9177,7 +9177,7 @@
 			(uuid "26af0920-9843-4d3d-9f32-fe9bd5ea5012")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "R10")
 					(unit 1)
@@ -9243,7 +9243,7 @@
 			(uuid "ec1ff9d4-8e2f-4df0-8f35-825caaebcee3")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "#PWR022")
 					(unit 1)
@@ -9309,7 +9309,7 @@
 			(uuid "f3b06628-3c0c-4df0-a2f1-8546badd4fe7")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "#PWR09")
 					(unit 1)
@@ -9654,7 +9654,7 @@
 			(uuid "06b087e9-0b41-4f9f-adbb-178ce45c0fb1")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "#PWR017")
 					(unit 1)
@@ -9854,7 +9854,7 @@
 			(uuid "0842bac4-bcfe-4750-9147-24acbbdb376c")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "#PWR010")
 					(unit 1)
@@ -9990,7 +9990,7 @@
 			(uuid "2a7e87e6-f3f6-42a4-be79-a9d72cfda68e")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "#PWR02")
 					(unit 1)
@@ -10205,7 +10205,7 @@
 			(uuid "d6a15a5b-1744-4fa9-9a1b-16754d133465")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "D0")
 					(unit 1)
@@ -10311,7 +10311,7 @@
 			(uuid "7b97c2cc-c15b-4550-92ee-7c854cdcd406")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "U10")
 					(unit 5)
@@ -10345,7 +10345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 33.02 85.09 0)
 			(effects
 				(font
@@ -10463,7 +10463,7 @@
 			(uuid "c3d6db37-a119-4dd0-b06f-75e3921adc36")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "#PWR00")
 					(unit 1)
@@ -10812,7 +10812,7 @@
 			(uuid "a298ff7a-cbbc-4097-99ab-ef3f83f6ddf6")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "#PWR013")
 					(unit 1)
@@ -10988,7 +10988,7 @@
 			(uuid "5a5cd7a6-8138-4785-9f3f-ee23e6fffb9c")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "U3")
 					(unit 5)
@@ -11124,7 +11124,7 @@
 			(uuid "ccbdb8f4-08db-425c-8d5a-71908e7bf95f")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "#PWR014")
 					(unit 1)
@@ -11190,7 +11190,7 @@
 			(uuid "965047b8-1119-4c5f-8e71-9edd95ee9e56")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "#PWR018")
 					(unit 1)
@@ -11496,7 +11496,7 @@
 			(uuid "c3d07e12-e567-4e62-b805-4cb4c0b6f37c")
 		)
 		(instances
-			(project ""
+			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "R0")
 					(unit 1)
