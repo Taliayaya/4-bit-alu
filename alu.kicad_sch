@@ -5351,12 +5351,6 @@
 		(uuid "78433b9f-e8cd-49f4-868d-15c2eecabac6")
 	)
 	(junction
-		(at 149.86 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a61ca76-af94-4c18-8d1c-9af4337abc2c")
-	)
-	(junction
 		(at 105.41 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5507,12 +5501,6 @@
 		(uuid "e323360d-aa31-4621-82b3-a750a2206124")
 	)
 	(junction
-		(at 149.86 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5cb6318-aa40-4159-ae69-24f658ac7cda")
-	)
-	(junction
 		(at 267.97 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5559,16 +5547,6 @@
 			(type default)
 		)
 		(uuid "01813255-0cac-4fac-aa33-d6099799c46e")
-	)
-	(wire
-		(pts
-			(xy 139.7 66.04) (xy 139.7 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04da6093-1107-4928-b8b6-178033380354")
 	)
 	(wire
 		(pts
@@ -6552,16 +6530,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 49.53) (xy 139.7 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "894d5560-49e3-4396-b49e-57c85722cb55")
-	)
-	(wire
-		(pts
 			(xy 184.15 16.51) (xy 186.69 16.51)
 		)
 		(stroke
@@ -6972,16 +6940,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 49.53) (xy 139.7 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c298a816-d740-4da4-b395-fdde3cb42d2c")
-	)
-	(wire
-		(pts
 			(xy 231.14 82.55) (xy 231.14 97.79)
 		)
 		(stroke
@@ -7359,16 +7317,6 @@
 			(type default)
 		)
 		(uuid "ecace19c-2b7b-4c90-9234-3da105a0bb33")
-	)
-	(wire
-		(pts
-			(xy 139.7 74.93) (xy 149.86 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed294262-1d35-4163-a210-99c53dbe843a")
 	)
 	(wire
 		(pts
@@ -9949,7 +9897,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 74.93 0)
+		(at 83.82 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9959,7 +9907,7 @@
 		(dnp no)
 		(uuid "10d5f352-e583-456f-ad33-de2b339c1c6b")
 		(property "Reference" "#PWR06"
-			(at 149.86 81.28 0)
+			(at 83.82 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9970,7 +9918,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 78.994 0)
+			(at 83.82 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9980,7 +9928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 74.93 0)
+			(at 83.82 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9991,7 +9939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 74.93 0)
+			(at 83.82 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10002,7 +9950,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 74.93 0)
+			(at 83.82 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10740,7 +10688,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x04"
+		(property "Value" "SW_DI418127270904P_x04"
 			(at 33.02 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10750,7 +10698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 33.02 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10955,7 +10903,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x04"
+		(property "Value" "SW_DI418127270904P_x04"
 			(at 86.36 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10965,7 +10913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 86.36 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13060,7 +13008,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 149.86 62.23 0)
+		(at 83.82 62.23 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13070,7 +13018,7 @@
 		(dnp no)
 		(uuid "c20d485d-556b-4a5f-a631-e0af4d24d1ee")
 		(property "Reference" "U0"
-			(at 143.51 64.516 90)
+			(at 90.17 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13081,7 +13029,7 @@
 			)
 		)
 		(property "Value" "SN74LS08N"
-			(at 156.21 68.326 90)
+			(at 90.17 68.326 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13092,7 +13040,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 149.86 62.23 0)
+			(at 83.82 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13103,7 +13051,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
-			(at 149.86 62.23 0)
+			(at 83.82 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13114,7 +13062,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 149.86 62.23 0)
+			(at 83.82 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13177,7 +13125,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 149.86 49.53 0)
+		(at 83.82 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13187,7 +13135,7 @@
 		(dnp no)
 		(uuid "c3f1501e-1238-45eb-80c1-86eaac9fe9ab")
 		(property "Reference" "#PWR05"
-			(at 149.86 53.34 0)
+			(at 83.82 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13198,7 +13146,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 149.86 45.72 0)
+			(at 83.82 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13208,7 +13156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 49.53 0)
+			(at 83.82 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13219,7 +13167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 49.53 0)
+			(at 83.82 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13230,7 +13178,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 149.86 49.53 0)
+			(at 83.82 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13274,7 +13222,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x04"
+		(property "Value" "SW_DI418127270904P_x04"
 			(at 33.02 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13284,7 +13232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 33.02 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13745,7 +13693,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 139.7 63.5 0)
+		(at 83.82 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13753,9 +13701,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d79869b0-2c4d-4bbc-9fb8-7e9aeb6846e0")
 		(property "Reference" "C0"
-			(at 136.652 65.024 90)
+			(at 86.36 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13766,7 +13715,7 @@
 			)
 		)
 		(property "Value" "CC0603KRX7R9BB104"
-			(at 142.24 64.7762 0)
+			(at 86.36 48.2662 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13778,7 +13727,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 139.7 63.5 0)
+			(at 83.82 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13789,7 +13738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 63.5 0)
+			(at 83.82 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13800,7 +13749,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 139.7 63.5 0)
+			(at 83.82 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
