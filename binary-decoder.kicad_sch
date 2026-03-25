@@ -2671,7 +2671,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC86"
+		(property "Value" "SN74HC86N"
 			(at 147.574 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2681,7 +2681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 147.32 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2947,7 +2947,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "SN74LS08N"
 			(at 146.812 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2957,7 +2957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 147.32 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2968,7 +2968,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
 			(at 147.32 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3062,7 +3062,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "SN74LS08N"
 			(at 146.812 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3072,7 +3072,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 147.32 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3083,7 +3083,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
 			(at 147.32 95.25 0)
 			(hide yes)
 			(show_name no)
