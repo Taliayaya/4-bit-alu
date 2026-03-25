@@ -3427,6 +3427,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -8665,6 +8821,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 259.08 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01f8b418-569e-400b-bbe4-e06a869d984c")
+		(property "Reference" "C6"
+			(at 261.62 83.8262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104"
+			(at 261.62 86.3662 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 259.08 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 259.08 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0978b371-bc44-448a-96fa-d99d8c72df82")
+		)
+		(pin "1"
+			(uuid "c48f6366-5ef2-41c8-97ec-67750bb708a6")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 121.92 161.29 180)
 		(unit 1)
@@ -8675,7 +8914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06a6513d-fe1c-47f1-a37a-458bcfb5e2b9")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 121.92 163.195 0)
 			(hide yes)
 			(show_name no)
@@ -8735,7 +8974,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -8752,7 +8991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07d2c834-dae1-45c0-a6f4-37f30d46808e")
-		(property "Reference" "R1"
+		(property "Reference" "R16"
 			(at 248.666 135.382 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8815,7 +9054,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R1")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8832,7 +9071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07f068b3-0770-4062-a7fe-f7f9499e300d")
-		(property "Reference" "D4"
+		(property "Reference" "D0"
 			(at 256.032 156.972 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8906,7 +9145,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "D4")
+					(reference "D0")
 					(unit 1)
 				)
 			)
@@ -8923,7 +9162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07fa896a-5bc6-46c0-bc3b-52144defaf4f")
-		(property "Reference" "R16"
+		(property "Reference" "R9"
 			(at 98.298 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8988,7 +9227,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R16")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9005,7 +9244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a563318-5bcc-480a-8e24-d4455d68cb66")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR021"
 			(at 240.03 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9065,7 +9304,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR016")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9082,7 +9321,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b13e123-88c2-4b00-91df-ca037752fc89")
-		(property "Reference" "R18"
+		(property "Reference" "R11"
 			(at 108.458 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9147,7 +9386,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R18")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9165,7 +9404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ced0afc-f044-4c85-b93e-d77990f75ab6")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 226.06 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9265,7 +9504,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "U2")
+					(reference "U3")
 					(unit 5)
 				)
 			)
@@ -9282,7 +9521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0eb6c652-fbe6-4516-b22d-06b9631da545")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR018"
 			(at 219.71 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9342,7 +9581,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR014")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9359,7 +9598,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10d5f352-e583-456f-ad33-de2b339c1c6b")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR06"
 			(at 83.82 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9419,7 +9658,90 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR019")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 219.71 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "114dad27-9247-4ed7-aef8-dc9dbc3ee2ed")
+		(property "Reference" "C4"
+			(at 222.25 83.8262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104"
+			(at 222.25 86.3662 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 219.71 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 219.71 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e8d764a-1538-463d-aaf0-db93cccd82f8")
+		)
+		(pin "1"
+			(uuid "636589ba-13e3-4ab9-878d-004506df8904")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9436,7 +9758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33f05d06-5bdc-4531-8e37-ef4afd21441d")
-		(property "Reference" "R4"
+		(property "Reference" "R0"
 			(at 39.624 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9501,7 +9823,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R4")
+					(reference "R0")
 					(unit 1)
 				)
 			)
@@ -9519,7 +9841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "351e51bd-dcee-4f34-9aff-e0a2be282a09")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG00"
 			(at 108.585 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -9580,7 +9902,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#FLG03")
+					(reference "#FLG00")
 					(unit 1)
 				)
 			)
@@ -9598,7 +9920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "357c9e44-4440-4e16-bbb7-2b6c68b92e51")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 49.53 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9658,7 +9980,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9783,6 +10105,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 240.03 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f5fc823-363f-4ff5-9c86-06f9fe28d4b4")
+		(property "Reference" "C5"
+			(at 242.57 83.8262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104"
+			(at 242.57 86.3662 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 240.03 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 240.03 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "38607b72-0d2e-4407-bf71-cc973d495b6c")
+		)
+		(pin "1"
+			(uuid "af9b2189-872a-4601-9741-deb547601ff8")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 105.41 44.45 0)
 		(unit 1)
@@ -9793,7 +10198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ff65a93-a13a-451e-8f62-eb7b84ff10f6")
-		(property "Reference" "R17"
+		(property "Reference" "R10"
 			(at 103.378 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9858,173 +10263,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 219.71 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42663136-db15-4d9d-bac8-5e6c3d430393")
-		(property "Reference" "C3"
-			(at 222.25 85.0962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 222.25 86.3662 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 219.71 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 219.71 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b69a18f0-6302-4ca0-b073-8a2f0a018fef")
-		)
-		(pin "1"
-			(uuid "665bb9eb-83db-4a88-839b-b82f19c49c28")
-		)
-		(instances
-			(project "alu"
-				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 240.03 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45562a2c-828f-47e8-bc8c-b724c58b05d8")
-		(property "Reference" "C4"
-			(at 242.57 85.0962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 242.57 86.3662 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 240.03 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 240.03 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a4acd5bb-e2d9-4c74-8445-54bb6890e396")
-		)
-		(pin "1"
-			(uuid "9bb3015c-d49e-427d-925f-974304382546")
-		)
-		(instances
-			(project "alu"
-				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "C4")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10041,7 +10280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4857efef-0531-4675-aa62-4bbbc2f20f59")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 257.302 148.082 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10115,7 +10354,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10221,89 +10460,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 83.82 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ddd3d10-0401-4409-913f-c59ea93f1e92")
-		(property "Reference" "C6"
-			(at 86.36 46.9962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 86.36 48.2662 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 83.82 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "96082a34-8363-460e-8012-8bb931ce1317")
-		)
-		(pin "1"
-			(uuid "407b1f01-2908-4cad-b19e-6a41696c468f")
-		)
-		(instances
-			(project "alu"
-				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74HC86")
 		(at 199.39 100.33 0)
 		(unit 5)
@@ -10315,7 +10471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e9994db-89a5-4bdf-b14b-932b6c733152")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 205.74 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10415,7 +10571,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "U4")
+					(reference "U2")
 					(unit 5)
 				)
 			)
@@ -10433,7 +10589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ea474d5-fedd-4029-a072-ca24cd996652")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 86.36 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10513,7 +10669,90 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "SW3")
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 179.07 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54f4a510-1c6a-4b44-a632-5437d6de8570")
+		(property "Reference" "C2"
+			(at 181.61 83.8262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104"
+			(at 181.61 86.3662 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 179.07 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6ceaf8da-787d-42c8-a3d8-920c367868d1")
+		)
+		(pin "1"
+			(uuid "d4636f12-9895-429a-8e08-2cee4e86b6d8")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10530,7 +10769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58a70148-4689-40d9-ba20-d825717b8532")
-		(property "Reference" "R3"
+		(property "Reference" "R18"
 			(at 248.666 148.082 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10593,90 +10832,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 259.08 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5efc9cee-17a6-43fc-bf2f-ad0bd4cc84b9")
-		(property "Reference" "C5"
-			(at 261.62 85.0962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 261.62 86.3662 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 259.08 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 259.08 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c67b8db6-2338-4954-a33b-395fff1bb97c")
-		)
-		(pin "1"
-			(uuid "0516c2cd-896d-401b-9633-e938f9a3d910")
-		)
-		(instances
-			(project "alu"
-				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "C5")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10693,7 +10849,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f47e421-3fce-4266-8c09-f6025d5fcd0d")
-		(property "Reference" "R10"
+		(property "Reference" "R6"
 			(at 55.118 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10758,7 +10914,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R10")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10775,7 +10931,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f71dcc2-8db2-4f34-8f6d-c890690251d2")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR011"
 			(at 128.27 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -10835,7 +10991,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR048")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10852,7 +11008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "602f0518-6193-47b5-b975-00b4d0b50a36")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR022"
 			(at 259.08 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10912,7 +11068,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR017")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10929,7 +11085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6167686f-747a-4390-82a3-68c35ffdf472")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR014"
 			(at 179.07 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10989,7 +11145,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR09")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11101,7 +11257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cab3f3c-e098-4b57-b964-4c26f51039fa")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR016"
 			(at 199.39 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11161,7 +11317,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR011")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11179,7 +11335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f928eaf-22cb-4254-ae24-cd3327f6ea41")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR09"
 			(at 106.68 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11239,7 +11395,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR035")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -11257,7 +11413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70b6cbb7-793c-414a-96c7-ae79d7195397")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR08"
 			(at 102.87 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11317,7 +11473,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR024")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11334,7 +11490,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "771a5923-3c7f-4bdd-a110-2acdb63c5710")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 44.958 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11399,7 +11555,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11416,7 +11572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8402f7cb-6c24-4d07-9bb3-97f6a790c861")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 257.302 141.732 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11490,7 +11646,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -11507,7 +11663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85d45a47-6d8d-4896-977a-ed271a7b20ff")
-		(property "Reference" "C0"
+		(property "Reference" "C1"
 			(at 130.81 163.576 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11571,7 +11727,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "C0")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -11588,7 +11744,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88edaaea-b92e-4a47-864c-2c003035c4a0")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 131.572 178.816 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11652,7 +11808,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11748,7 +11904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fbb8655-0808-4047-9b2c-79307179fb74")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR04"
 			(at 78.74 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11808,7 +11964,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR023")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11825,7 +11981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91dc840c-681f-4278-b50d-3c768fb3159f")
-		(property "Reference" "R2"
+		(property "Reference" "R17"
 			(at 248.666 141.732 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11888,7 +12044,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R2")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -11905,7 +12061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "980a9e4e-2400-4f42-b3ef-484a03996b1c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR015"
 			(at 179.07 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11965,7 +12121,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR010")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11982,7 +12138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a1931f3-9c88-45b1-8d1d-6aca67dc9154")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 123.952 178.816 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12046,7 +12202,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -12063,7 +12219,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9adf2190-e917-4fb9-8c1e-501e63f8abee")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 49.784 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12128,7 +12284,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -12146,7 +12302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c15ef3d-de59-4f7b-8688-be8bd0c2a90a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR024"
 			(at 267.97 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -12206,7 +12362,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR02")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12223,7 +12379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c33b11c-9736-4d47-b600-ac7dc12dc304")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 247.396 156.972 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12286,7 +12442,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12303,7 +12459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac80c830-54ab-46a2-b17e-61d62919ace1")
-		(property "Reference" "R11"
+		(property "Reference" "R7"
 			(at 54.864 94.488 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12368,7 +12524,90 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R11")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 199.39 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf43efb1-830c-4dd9-9b90-9d9cd07f9c73")
+		(property "Reference" "C3"
+			(at 201.93 83.8262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104"
+			(at 201.93 86.3662 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 199.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 199.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fa9e3772-1083-41e5-a95d-90d7e7d299f0")
+		)
+		(pin "1"
+			(uuid "87e6bc98-0f8b-4160-a04b-42e970133135")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12385,7 +12624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c10f833a-9d86-44ee-b588-ed153980a1a5")
-		(property "Reference" "D0"
+		(property "Reference" "D1"
 			(at 257.302 129.032 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12459,7 +12698,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "D0")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12476,7 +12715,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c20d485d-556b-4a5f-a631-e0af4d24d1ee")
-		(property "Reference" "U10"
+		(property "Reference" "U0"
 			(at 90.17 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12576,7 +12815,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "U10")
+					(reference "U0")
 					(unit 5)
 				)
 			)
@@ -12593,7 +12832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3f1501e-1238-45eb-80c1-86eaac9fe9ab")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR05"
 			(at 83.82 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -12653,7 +12892,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR022")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12769,7 +13008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9cdc055-0c9e-425c-90e3-7d060b8c1c9b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR010"
 			(at 121.92 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -12829,7 +13068,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR045")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -12925,7 +13164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5a255dd-0e9c-45b3-ba6a-a4d40dbff202")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR07"
 			(at 99.06 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -12985,7 +13224,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR032")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13002,7 +13241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d67d96c8-2ac7-4561-9db4-e91cdbc07fd5")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR017"
 			(at 199.39 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -13062,7 +13301,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR012")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -13079,7 +13318,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d75933ba-3948-493c-973a-fd9a82d2ca74")
-		(property "Reference" "R6"
+		(property "Reference" "R2"
 			(at 44.958 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13144,7 +13383,90 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R6")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 83.82 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d79869b0-2c4d-4bbc-9fb8-7e9aeb6846e0")
+		(property "Reference" "C0"
+			(at 86.36 45.7262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104"
+			(at 86.36 48.2662 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 83.82 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 83.82 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "29d16f01-0f0a-4ef4-8330-b527534f77d0")
+		)
+		(pin "1"
+			(uuid "f756cabb-d9f0-47e8-a5ff-53ab5711c847")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
+					(reference "C0")
 					(unit 1)
 				)
 			)
@@ -13161,7 +13483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9b21e62-d1a3-486f-9855-4b69a0f22010")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR020"
 			(at 240.03 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13221,7 +13543,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR015")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -13238,7 +13560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da047b36-e213-4a20-aa32-4705d442d31a")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 257.302 135.382 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13312,7 +13634,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13329,7 +13651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc13458a-c161-4d63-963a-b2d2e64a177b")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 49.784 94.488 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13394,7 +13716,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -13411,7 +13733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcc8d658-5a43-492a-8a6c-e66edc950960")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR019"
 			(at 219.71 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -13471,7 +13793,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR013")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13488,7 +13810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddb97db3-f932-4f4e-8d40-400329a64ceb")
-		(property "Reference" "R5"
+		(property "Reference" "R1"
 			(at 39.624 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13553,7 +13875,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -13571,7 +13893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e01113a3-df61-4db3-94c4-9fe88ecd9768")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 265.43 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13671,7 +13993,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "U3")
+					(reference "U5")
 					(unit 5)
 				)
 			)
@@ -13688,7 +14010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e58027f4-0d18-42ff-adfd-8b57f76aadfb")
-		(property "Reference" "R15"
+		(property "Reference" "R8"
 			(at 92.964 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13753,7 +14075,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R15")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13770,7 +14092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9692e6f-3217-43e6-8a80-b821410ddfe1")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR023"
 			(at 259.08 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -13830,7 +14152,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR018")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13848,7 +14170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb71bdb7-ca64-43d6-81a7-e3cb14c0a71c")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 246.38 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13948,7 +14270,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "U5")
+					(reference "U4")
 					(unit 5)
 				)
 			)
@@ -13966,7 +14288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3dbb592-08aa-4915-98af-28cea0248c26")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 49.53 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -14026,7 +14348,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -14044,7 +14366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7810748-4dd8-4bda-820f-855d39ba869d")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR013"
 			(at 129.54 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -14104,7 +14426,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR046")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -14121,7 +14443,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe2dd696-cdfd-4883-aa5c-54ff95105dd9")
-		(property "Reference" "R0"
+		(property "Reference" "R15"
 			(at 248.666 129.032 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14184,7 +14506,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "R0")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -14202,7 +14524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fea6b29c-80a0-4b64-9b7a-f192e4365925")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR012"
 			(at 125.73 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -14263,7 +14585,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
-					(reference "#PWR047")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

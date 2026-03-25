@@ -2166,7 +2166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "017d0f2d-9011-421c-ac19-28060f2af900")
-		(property "Reference" "U13"
+		(property "Reference" "U10"
 			(at 124.46 34.2198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2237,7 +2237,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/30c1ae8d-c878-40aa-ace0-371f489a4d3c"
-					(reference "U13")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -2255,7 +2255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08fcc76a-d08d-4d83-bbfb-48cb4b26657f")
-		(property "Reference" "U0"
+		(property "Reference" "U7"
 			(at 135.8817 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2353,7 +2353,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/30c1ae8d-c878-40aa-ace0-371f489a4d3c"
-					(reference "U0")
+					(reference "U7")
 					(unit 2)
 				)
 			)
@@ -2454,7 +2454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "515c3851-7ba4-4e23-a544-9c215eb4d51e")
-		(property "Reference" "U10"
+		(property "Reference" "U9"
 			(at 135.8817 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2552,7 +2552,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/30c1ae8d-c878-40aa-ace0-371f489a4d3c"
-					(reference "U10")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2570,7 +2570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f1c98fe-2b88-4339-953c-c14be12d4e31")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR?"
 			(at 111.76 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -2630,7 +2630,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/30c1ae8d-c878-40aa-ace0-371f489a4d3c"
-					(reference "#PWR027")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2648,7 +2648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e7627e4-4c3b-418e-8400-8522f05ea4cf")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR?"
 			(at 54.61 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -2708,7 +2708,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/30c1ae8d-c878-40aa-ace0-371f489a4d3c"
-					(reference "#PWR07")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2726,7 +2726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "925bb97f-b047-4b30-8965-8d65dd5702c9")
-		(property "Reference" "U10"
+		(property "Reference" "U9"
 			(at 135.8817 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2824,7 +2824,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/30c1ae8d-c878-40aa-ace0-371f489a4d3c"
-					(reference "U10")
+					(reference "U9")
 					(unit 2)
 				)
 			)
@@ -2842,7 +2842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af79d9c6-0512-4054-a175-fdd425fbbbd5")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR?"
 			(at 111.76 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -2902,7 +2902,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/30c1ae8d-c878-40aa-ace0-371f489a4d3c"
-					(reference "#PWR026")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2920,7 +2920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5383ee9-048d-4f9c-a349-865b0bee9262")
-		(property "Reference" "U0"
+		(property "Reference" "U7"
 			(at 135.8817 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3018,7 +3018,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/30c1ae8d-c878-40aa-ace0-371f489a4d3c"
-					(reference "U0")
+					(reference "U7")
 					(unit 4)
 				)
 			)
@@ -3035,7 +3035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9219811-fcb4-437f-aa56-546f913a9686")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR?"
 			(at 54.61 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3095,7 +3095,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/30c1ae8d-c878-40aa-ace0-371f489a4d3c"
-					(reference "#PWR040")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3113,7 +3113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e188d029-bfab-4a26-b45b-08cb4629b2dc")
-		(property "Reference" "U0"
+		(property "Reference" "U9"
 			(at 60.96 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3213,7 +3213,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/30c1ae8d-c878-40aa-ace0-371f489a4d3c"
-					(reference "U0")
+					(reference "U9")
 					(unit 5)
 				)
 			)
@@ -3231,7 +3231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5739706-a60d-4235-9e3b-bc40778e1631")
-		(property "Reference" "U0"
+		(property "Reference" "U7"
 			(at 135.8817 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3329,7 +3329,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/30c1ae8d-c878-40aa-ace0-371f489a4d3c"
-					(reference "U0")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -3347,7 +3347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7305141-9399-40f2-a7ad-f2f551519278")
-		(property "Reference" "U0"
+		(property "Reference" "U7"
 			(at 135.8817 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3445,7 +3445,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/30c1ae8d-c878-40aa-ace0-371f489a4d3c"
-					(reference "U0")
+					(reference "U7")
 					(unit 3)
 				)
 			)

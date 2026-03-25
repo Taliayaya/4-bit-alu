@@ -3194,11 +3194,11 @@
 					(unit 2)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/2ab78124-47e9-4404-842f-89ef59ad6ac3"
-					(reference "U4")
+					(reference "U2")
 					(unit 4)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/d1db8f6e-5205-451b-aac4-82dec57d8ab8"
-					(reference "U4")
+					(reference "U2")
 					(unit 2)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/dde0e48b-d316-4fbd-8778-cd8a135129ba"
@@ -3322,11 +3322,11 @@
 					(unit 1)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/2ab78124-47e9-4404-842f-89ef59ad6ac3"
-					(reference "U4")
+					(reference "U2")
 					(unit 3)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/d1db8f6e-5205-451b-aac4-82dec57d8ab8"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/dde0e48b-d316-4fbd-8778-cd8a135129ba"
@@ -3348,7 +3348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "469785cf-c82f-4c89-a703-b5ca8c60d8b9")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 104.14 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3446,19 +3446,19 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/10a3732c-bf63-42c8-b0c5-c029ff8b8938"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/2ab78124-47e9-4404-842f-89ef59ad6ac3"
-					(reference "U3")
+					(reference "U5")
 					(unit 4)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/d1db8f6e-5205-451b-aac4-82dec57d8ab8"
-					(reference "U3")
+					(reference "U5")
 					(unit 3)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/dde0e48b-d316-4fbd-8778-cd8a135129ba"
-					(reference "U3")
+					(reference "U5")
 					(unit 2)
 				)
 			)
@@ -3476,7 +3476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d1ca0a6-24cc-4a7c-a303-fab8de37d432")
-		(property "Reference" "U2"
+		(property "Reference" "U0"
 			(at 68.5717 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3574,19 +3574,19 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/10a3732c-bf63-42c8-b0c5-c029ff8b8938"
-					(reference "U2")
+					(reference "U0")
 					(unit 1)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/2ab78124-47e9-4404-842f-89ef59ad6ac3"
-					(reference "U5")
+					(reference "U3")
 					(unit 3)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/d1db8f6e-5205-451b-aac4-82dec57d8ab8"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/dde0e48b-d316-4fbd-8778-cd8a135129ba"
-					(reference "U2")
+					(reference "U0")
 					(unit 3)
 				)
 			)
@@ -3604,7 +3604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcfd3b32-6ecb-4119-bb04-1888c2192498")
-		(property "Reference" "U2"
+		(property "Reference" "U0"
 			(at 87.6217 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3702,19 +3702,19 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/10a3732c-bf63-42c8-b0c5-c029ff8b8938"
-					(reference "U2")
+					(reference "U0")
 					(unit 2)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/2ab78124-47e9-4404-842f-89ef59ad6ac3"
-					(reference "U5")
+					(reference "U3")
 					(unit 4)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/d1db8f6e-5205-451b-aac4-82dec57d8ab8"
-					(reference "U5")
+					(reference "U3")
 					(unit 2)
 				)
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/dde0e48b-d316-4fbd-8778-cd8a135129ba"
-					(reference "U2")
+					(reference "U0")
 					(unit 4)
 				)
 			)
