@@ -9858,7 +9858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_LongPads"
 			(at 33.02 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10074,7 +10074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_LongPads"
 			(at 86.36 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12001,7 +12001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_LongPads"
 			(at 33.02 85.09 0)
 			(hide yes)
 			(show_name no)
