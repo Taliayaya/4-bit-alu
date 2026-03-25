@@ -3117,7 +3117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 121.92 135.8962 0)
 			(hide yes)
 			(show_name no)
@@ -3934,7 +3934,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 88.9 134.6262 0)
 			(hide yes)
 			(show_name no)
@@ -4562,7 +4562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 53.34 133.3562 0)
 			(hide yes)
 			(show_name no)

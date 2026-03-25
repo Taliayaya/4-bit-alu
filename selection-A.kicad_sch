@@ -2434,7 +2434,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 45.72 143.5162 0)
 			(hide yes)
 			(show_name no)

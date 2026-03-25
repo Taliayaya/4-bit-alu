@@ -4068,7 +4068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 217.17 144.7862 0)
 			(hide yes)
 			(show_name no)
@@ -4731,7 +4731,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DGS"
+		(property "Value" "DMG2302U-7"
 			(at 82.55 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5243,7 +5243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DGS"
+		(property "Value" "DMG2302U-7"
 			(at 82.55 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5791,7 +5791,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DGS"
+		(property "Value" "DMG2302U-7"
 			(at 82.55 97.282 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6494,7 +6494,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 177.8 143.5162 0)
 			(hide yes)
 			(show_name no)
@@ -6576,7 +6576,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DGS"
+		(property "Value" "DMG2302U-7"
 			(at 82.55 125.222 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6777,7 +6777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 255.27 144.7862 0)
 			(hide yes)
 			(show_name no)

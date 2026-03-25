@@ -2511,7 +2511,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DGS"
+		(property "Value" "DMG2302U-7"
 			(at 132.588 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2864,7 +2864,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DGS"
+		(property "Value" "DMG2302U-7"
 			(at 113.538 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)

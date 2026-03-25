@@ -9482,7 +9482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "RC0603FR-07220RL"
 			(at 102.87 45.7199 0)
 			(hide yes)
 			(show_name no)
@@ -9641,7 +9641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "RC0603FR-07220RL"
 			(at 113.03 45.7199 0)
 			(hide yes)
 			(show_name no)
@@ -10076,7 +10076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "RC0603FR-07220RL"
 			(at 44.45 44.4499 0)
 			(hide yes)
 			(show_name no)
@@ -10514,7 +10514,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "RC0603FR-07220RL"
 			(at 107.95 45.7199 0)
 			(hide yes)
 			(show_name no)
@@ -10688,7 +10688,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DI418127270904P_x04"
+		(property "Value" "418127270904"
 			(at 33.02 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10903,7 +10903,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DI418127270904P_x04"
+		(property "Value" "418127270904"
 			(at 86.36 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11163,7 +11163,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "RC0603FR-07220RL"
 			(at 59.69 44.4499 0)
 			(hide yes)
 			(show_name no)
@@ -11804,7 +11804,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "RC0603FR-07220RL"
 			(at 49.53 93.9799 0)
 			(hide yes)
 			(show_name no)
@@ -12533,7 +12533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "RC0603FR-07220RL"
 			(at 54.61 44.4499 0)
 			(hide yes)
 			(show_name no)
@@ -12773,7 +12773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "RC0603FR-07220RL"
 			(at 59.69 93.9799 0)
 			(hide yes)
 			(show_name no)
@@ -13222,7 +13222,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DI418127270904P_x04"
+		(property "Value" "418127270904"
 			(at 33.02 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13631,7 +13631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "RC0603FR-07220RL"
 			(at 49.53 44.4499 0)
 			(hide yes)
 			(show_name no)
@@ -13964,7 +13964,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "RC0603FR-07220RL"
 			(at 54.61 93.9799 0)
 			(hide yes)
 			(show_name no)
@@ -14123,7 +14123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "RC0603FR-07220RL"
 			(at 44.45 93.9799 0)
 			(hide yes)
 			(show_name no)
@@ -14322,7 +14322,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "RC0603FR-07220RL"
 			(at 97.79 45.7199 0)
 			(hide yes)
 			(show_name no)
