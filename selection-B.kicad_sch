@@ -4426,7 +4426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4938,7 +4938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 90.17 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5409,7 +5409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 90.17 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6034,7 +6034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 90.17 129.54 0)
 			(hide yes)
 			(show_name no)

@@ -2522,7 +2522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 132.08 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2875,7 +2875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 130.81 82.55 0)
 			(hide yes)
 			(show_name no)
