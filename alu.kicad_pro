@@ -612,7 +612,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Datasheet"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -671,7 +671,7 @@
         "uuid": "4987240f-8890-46b8-b8e9-0d60580cb205"
       }
     ],
-    "used_designators": "SW1-2,SW,R1-18,R,U1-14,U,Q1-5,Q,J,D1-4,D,C1-14,C,#PWR1-48,#PWR,#FLG1,#FLG",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
