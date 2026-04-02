@@ -3079,7 +3079,7 @@
 							)
 						)
 					)
-					(number "SH"
+					(number "S1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3237,7 +3237,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3515,7 +3515,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3697,7 +3697,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3786,374 +3786,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SW_DIP_x04_1"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DIP_x04"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dip switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW?DIP?x4*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DIP_x04_1_0_0"
-				(circle
-					(center -2.032 5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 5.207) (xy 2.3622 6.2484)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 2.667) (xy 2.3622 3.7084)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -2.3876) (xy 2.3622 -1.3462)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DIP_x04_1_0_1"
-				(rectangle
-					(start -3.81 7.62)
-					(end 3.81 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SW_DIP_x04_1_1_1"
-				(pin passive line
-					(at -7.62 5.08 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_DIP_x04"
 			(pin_names
 				(offset 0)
@@ -4187,7 +3819,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4786,7 +4418,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4873,6 +4505,18 @@
 			(type none)
 		)
 		(uuid 047472ad-6bb2-4951-b052-3d4c756b2e1a)
+	)
+	(rectangle
+		(start 92.71 121.92)
+		(end 127 140.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 249ee029-18ab-4e41-ac6e-bde37074ef9c)
 	)
 	(rectangle
 		(start 88.9 149.86)
@@ -4965,6 +4609,16 @@
 			)
 		)
 		(uuid "2a4facfc-49fa-4594-b03f-b4e726bf2d44")
+	)
+	(text "Active Operation Display"
+		(exclude_from_sim no)
+		(at 109.22 120.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43a3d7a9-e35c-410a-b756-a7493709cae1")
 	)
 	(text "4-bit \nInput A"
 		(exclude_from_sim no)
@@ -5199,12 +4853,6 @@
 		(uuid "9c317afa-649d-480e-b8b7-d4edd736954e")
 	)
 	(junction
-		(at 186.69 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a72636c7-fd79-4ffc-8996-c29c5b7fc1ba")
-	)
-	(junction
 		(at 128.27 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5277,6 +4925,12 @@
 		(uuid "d8bba123-0db4-4750-81ae-95581fa2c2e7")
 	)
 	(junction
+		(at 120.65 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1054ff3-8abe-4888-a4ce-fea764531a77")
+	)
+	(junction
 		(at 261.62 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5307,6 +4961,12 @@
 		(uuid "eb21043a-530a-42f0-9d2a-6d7f0d8db170")
 	)
 	(junction
+		(at 120.65 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee82f3ec-1e1c-4d37-9086-ecf170a81349")
+	)
+	(junction
 		(at 49.53 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5323,10 +4983,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc5972ea-1f19-4c41-a8fc-226df037e370")
-	)
-	(no_connect
-		(at 187.96 95.25)
-		(uuid "31d50cec-ecde-445c-92f4-1b6c89d8161f")
 	)
 	(wire
 		(pts
@@ -5347,16 +5003,6 @@
 			(type default)
 		)
 		(uuid "00ef8e62-208c-44c0-ba49-26893bf4cab3")
-	)
-	(wire
-		(pts
-			(xy 186.69 87.63) (xy 186.69 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "016b9d04-bd85-454a-bfb5-dc48545d06cd")
 	)
 	(wire
 		(pts
@@ -5527,6 +5173,16 @@
 			(type default)
 		)
 		(uuid "170a409f-183b-45db-b5d7-c37eac78c9a1")
+	)
+	(wire
+		(pts
+			(xy 101.6 134.62) (xy 104.14 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b522b25-60db-407b-b249-f36899460b3e")
 	)
 	(wire
 		(pts
@@ -5880,6 +5536,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 127) (xy 120.65 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403b6854-c982-40ed-b819-4661f352db39")
+	)
+	(wire
+		(pts
 			(xy 240.03 85.09) (xy 240.03 87.63)
 		)
 		(stroke
@@ -5920,6 +5586,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 127) (xy 120.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b744b6-690d-4624-90d0-c58b8859902e")
+	)
+	(wire
+		(pts
 			(xy 223.52 33.02) (xy 260.35 33.02)
 		)
 		(stroke
@@ -5937,16 +5613,6 @@
 			(type default)
 		)
 		(uuid "4d5eec7c-803c-4ddf-a2cd-186575f00876")
-	)
-	(wire
-		(pts
-			(xy 186.69 88.9) (xy 186.69 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e2a0327-20b8-4773-9d0b-15b3e0b6ee40")
 	)
 	(wire
 		(pts
@@ -6210,6 +5876,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 88.9) (xy 186.69 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce36da8-7282-41bd-9315-72113d1b4cc0")
+	)
+	(wire
+		(pts
 			(xy 261.62 27.94) (xy 266.7 27.94)
 		)
 		(stroke
@@ -6390,6 +6066,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 130.81) (xy 120.65 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa7804a-b3eb-44c2-83ff-9a1d5b0cf3a8")
+	)
+	(wire
+		(pts
 			(xy 184.15 16.51) (xy 186.69 16.51)
 		)
 		(stroke
@@ -6457,6 +6143,16 @@
 			(type default)
 		)
 		(uuid "9352b69a-60d6-442e-804b-800cee159160")
+	)
+	(wire
+		(pts
+			(xy 119.38 134.62) (xy 120.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936dd846-d7f4-40de-b886-aa551af29779")
 	)
 	(wire
 		(pts
@@ -6730,6 +6426,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 134.62) (xy 120.65 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68e11a6-c1b6-4bcb-a475-eb190899879f")
+	)
+	(wire
+		(pts
 			(xy 121.92 173.99) (xy 129.54 173.99)
 		)
 		(stroke
@@ -6787,6 +6493,16 @@
 			(type default)
 		)
 		(uuid "bc038c02-1abe-4917-9848-9aea19c78478")
+	)
+	(wire
+		(pts
+			(xy 101.6 127) (xy 104.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda15562-d3d2-4125-bc6d-4a7a987baaa8")
 	)
 	(wire
 		(pts
@@ -7037,6 +6753,16 @@
 			(type default)
 		)
 		(uuid "dd9a4951-32f3-47c2-8fc8-5780fec22299")
+	)
+	(wire
+		(pts
+			(xy 101.6 130.81) (xy 104.14 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd2132d-b8d3-46fc-99a6-41d4b28696a2")
 	)
 	(wire
 		(pts
@@ -7350,6 +7076,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 130.81) (xy 120.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0f1193-02a6-41b5-81b6-a7c5c86cc342")
+	)
+	(wire
+		(pts
 			(xy 243.84 71.12) (xy 245.11 71.12)
 		)
 		(stroke
@@ -7532,6 +7268,28 @@
 			)
 		)
 	)
+	(global_label "ADD"
+		(shape input)
+		(at 101.6 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a209805-837a-42d5-806f-4ab737dbce31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.9862 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MUL"
 		(shape output)
 		(at 146.05 33.02 0)
@@ -7594,6 +7352,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SUB"
+		(shape input)
+		(at 101.6 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fa88c95-8c22-4a6c-b9b8-a9be06287b90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.8048 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7985,6 +7765,28 @@
 		(uuid "54a79f34-7df4-4ca4-82e9-ff9d776c19ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 165.1387 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUL"
+		(shape input)
+		(at 101.6 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b784847-6625-4d13-8910-e04d7f5d029d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.8048 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,7 +8711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 121.92 161.29 0)
 			(effects
 				(font
@@ -8974,7 +8776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 252.73 137.16 0)
 			(effects
 				(font
@@ -9042,7 +8844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 259.08 158.75 0)
 			(effects
 				(font
@@ -9121,7 +8923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 100.33 44.45 0)
 			(effects
 				(font
@@ -9256,7 +9058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 110.49 44.45 0)
 			(effects
 				(font
@@ -9325,7 +9127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
 			(at 219.71 100.33 0)
 			(effects
 				(font
@@ -9526,6 +9328,74 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 107.95 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12a9cf41-a942-4514-b063-032256445d35")
+		(property "Reference" "R27"
+			(at 103.378 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0603FR-07220RL"
+			(at 107.95 131.826 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 107.95 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "477ab06a-5616-4133-8b7f-d95845920921")
+		)
+		(pin "2"
+			(uuid "76c700ee-9370-4848-bdd9-345541301ac6")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 41.91 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9561,7 +9431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 41.91 43.18 0)
 			(effects
 				(font
@@ -9631,7 +9501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 106.68 187.96 0)
 			(effects
 				(font
@@ -9869,7 +9739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 105.41 44.45 0)
 			(effects
 				(font
@@ -9937,7 +9807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 260.35 149.86 0)
 			(effects
 				(font
@@ -9980,7 +9850,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SW_DIP_x04_1")
 		(lib_id "Switch:SW_DIP_x04")
 		(at 33.02 35.56 0)
 		(unit 1)
@@ -10015,7 +9884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 33.02 35.56 0)
 			(effects
 				(font
@@ -10206,7 +10075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 86.36 33.02 0)
 			(effects
 				(font
@@ -10292,7 +10161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 252.73 149.86 0)
 			(effects
 				(font
@@ -10362,7 +10231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 57.15 43.18 0)
 			(effects
 				(font
@@ -10625,7 +10494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/1507/1/usb4970.pdf"
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 106.68 168.91 0)
 			(effects
 				(font
@@ -10655,7 +10524,7 @@
 		(pin "B9"
 			(uuid "df4871c8-de29-4228-9d8f-c3a63f9dce37")
 		)
-		(pin "SH"
+		(pin "S1"
 			(uuid "53221e7f-5f24-4b55-8784-1a8a6f81afe4")
 		)
 		(pin "B12"
@@ -10668,6 +10537,74 @@
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "J0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67cc8946-f01e-4b8d-9300-d55ae98b9994")
+		(property "Reference" "R26"
+			(at 103.378 129.032 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0603FR-07220RL"
+			(at 107.95 128.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 107.95 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4488963-866e-4835-81f9-f2d3eaadfa62")
+		)
+		(pin "2"
+			(uuid "388d0beb-7528-492d-800e-04fe5152e5c5")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -10907,7 +10844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 46.99 92.71 0)
 			(effects
 				(font
@@ -10935,6 +10872,83 @@
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 115.57 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f6fc360-4266-4418-8f84-14b206932194")
+		(property "Reference" "D5"
+			(at 112.522 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150080RS75000"
+			(at 115.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 115.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 115.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7af5b2f5-825b-40cd-8712-851a0315b540")
+		)
+		(pin "1"
+			(uuid "49b306b7-c73d-455f-8e49-20909bdbe942")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10975,7 +10989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 260.35 143.51 0)
 			(effects
 				(font
@@ -11054,7 +11068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/WCAP-CSGP-25VDC?sq=885012106031#885012106031"
+		(property "Datasheet" "~"
 			(at 128.27 165.1 0)
 			(effects
 				(font
@@ -11063,7 +11077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF"
+		(property "Description" "Unpolarized capacitor"
 			(at 132.588 166.878 0)
 			(effects
 				(font
@@ -11263,7 +11277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fr.rs-online.com/web/p/resistances-a-montage-en-surface/2426850?searchId=5960a329-c1f5-477d-b4eb-a9018fd0a253&gb=s"
+		(property "Datasheet" "~"
 			(at 129.54 180.34 0)
 			(effects
 				(font
@@ -11272,7 +11286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1k"
+		(property "Description" "Resistor"
 			(at 133.35 181.864 0)
 			(effects
 				(font
@@ -11290,6 +11304,83 @@
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 115.57 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88fbf501-7dc0-4977-9979-008707de4601")
+		(property "Reference" "D6"
+			(at 112.522 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150080RS75000"
+			(at 115.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 115.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 115.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37e8f33a-1236-4aeb-9342-29a1038ec74c")
+		)
+		(pin "1"
+			(uuid "82b3d49a-5b6c-43b0-915b-0a87577e0d22")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11428,6 +11519,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 115.57 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9037d0a5-7ffc-4572-9b70-bd4a39dbcf1a")
+		(property "Reference" "D7"
+			(at 112.522 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150080RS75000"
+			(at 115.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 115.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 115.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a61fe258-ed1c-480b-88e0-f35f16898704")
+		)
+		(pin "1"
+			(uuid "c7ef07f6-6897-490a-b94f-8eeecead3de5")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 252.73 143.51 90)
 		(unit 1)
@@ -11462,7 +11630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 252.73 143.51 0)
 			(effects
 				(font
@@ -11666,7 +11834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fr.rs-online.com/web/p/resistances-a-montage-en-surface/2426850?searchId=5960a329-c1f5-477d-b4eb-a9018fd0a253&gb=s"
+		(property "Datasheet" "~"
 			(at 121.92 180.34 0)
 			(effects
 				(font
@@ -11675,7 +11843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1k"
+		(property "Description" "Resistor"
 			(at 125.73 181.864 0)
 			(effects
 				(font
@@ -11735,7 +11903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 52.07 43.18 0)
 			(effects
 				(font
@@ -11869,7 +12037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 251.46 158.75 0)
 			(effects
 				(font
@@ -11897,6 +12065,74 @@
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9caf8292-4671-45d9-b1f2-d707ddf02b38")
+		(property "Reference" "R25"
+			(at 103.378 125.222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0603FR-07220RL"
+			(at 107.95 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 107.95 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8345979-5397-4c8b-a701-7a0fa335aa4e")
+		)
+		(pin "2"
+			(uuid "a8f476f2-2b01-4d14-bc01-711ec6b20f15")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -12009,7 +12245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 57.15 92.71 0)
 			(effects
 				(font
@@ -12147,7 +12383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 260.35 130.81 0)
 			(effects
 				(font
@@ -12225,7 +12461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
 			(at 87.63 62.23 0)
 			(effects
 				(font
@@ -12394,7 +12630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 33.02 85.09 0)
 			(effects
 				(font
@@ -12579,6 +12815,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 120.65 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfb9b61f-08f2-46b0-9e18-7c0bcb6eb052")
+		(property "Reference" "#PWR055"
+			(at 120.65 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.952 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b129bb4d-c0b4-4dde-b107-b9644e8c0dee")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 99.06 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12745,7 +13046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 46.99 43.18 0)
 			(effects
 				(font
@@ -12878,7 +13179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 260.35 137.16 0)
 			(effects
 				(font
@@ -12957,7 +13258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 52.07 92.71 0)
 			(effects
 				(font
@@ -13092,7 +13393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 41.91 92.71 0)
 			(effects
 				(font
@@ -13161,7 +13462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd54hct32.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
 			(at 261.62 100.33 0)
 			(effects
 				(font
@@ -13267,7 +13568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 95.25 44.45 0)
 			(effects
 				(font
@@ -13401,7 +13702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
 			(at 240.03 100.33 0)
 			(effects
 				(font
@@ -13707,7 +14008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 252.73 130.81 0)
 			(effects
 				(font

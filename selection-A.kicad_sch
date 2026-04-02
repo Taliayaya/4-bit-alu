@@ -2239,7 +2239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
 			(at 135.89 76.2 0)
 			(effects
 				(font
@@ -2413,7 +2413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
 			(at 135.89 119.38 0)
 			(effects
 				(font
@@ -2649,7 +2649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
 			(at 135.89 134.62 0)
 			(effects
 				(font
@@ -2819,7 +2819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
 			(at 135.89 104.14 0)
 			(effects
 				(font
@@ -2990,7 +2990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
 			(at 54.61 142.24 0)
 			(effects
 				(font
@@ -3094,7 +3094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
 			(at 135.89 62.23 0)
 			(effects
 				(font
@@ -3198,7 +3198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
 			(at 135.89 90.17 0)
 			(effects
 				(font
