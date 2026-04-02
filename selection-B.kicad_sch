@@ -2083,6 +2083,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:Q_NMOS_DGS"
 			(pin_names
 				(offset 0)
@@ -2598,7 +2722,7 @@
 		)
 	)
 	(junction
-		(at 101.6 66.04)
+		(at 111.76 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b29a118-1c12-4fb8-88bb-f955ad391536")
@@ -2616,7 +2740,7 @@
 		(uuid "1ec78092-6193-492d-9617-105f91c7d1db")
 	)
 	(junction
-		(at 99.06 80.01)
+		(at 109.22 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ec4f05e-e909-47fc-82d3-e91126f76550")
@@ -2640,10 +2764,22 @@
 		(uuid "493d0dfb-a810-4159-b755-0742db27a2a3")
 	)
 	(junction
-		(at 101.6 93.98)
+		(at 96.52 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e5113e2-628f-452d-a67e-db1d25017fb2")
+	)
+	(junction
+		(at 111.76 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a974e0c-48b2-497c-8bb4-446a05c4623a")
+	)
+	(junction
+		(at 95.25 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "663debf3-2577-4126-9f6c-62d91f7520cf")
 	)
 	(junction
 		(at 66.04 60.96)
@@ -2664,7 +2800,7 @@
 		(uuid "809f9bb0-a5af-4099-b1b7-ae4291592c29")
 	)
 	(junction
-		(at 101.6 38.1)
+		(at 111.76 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "866d6edc-8ab1-468c-9011-a11bc468f0a5")
@@ -2676,16 +2812,28 @@
 		(uuid "87b7ec18-8845-41db-b2e1-4f805e2cb94d")
 	)
 	(junction
-		(at 99.06 52.07)
+		(at 95.25 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88e7b363-2826-4db5-88e0-a579a5f74cbc")
+	)
+	(junction
+		(at 109.22 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c4694b4-ca09-41f6-bab7-591ba2457f71")
 	)
 	(junction
-		(at 96.52 149.86)
+		(at 106.68 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a166ef59-acb4-4287-80ea-7dcea20733a7")
+	)
+	(junction
+		(at 95.25 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a99b938b-a8b8-4be4-940f-f58d2330f242")
 	)
 	(junction
 		(at 62.23 48.26)
@@ -2700,7 +2848,7 @@
 		(uuid "de003fe9-e7c6-43d6-9238-01501ca877d1")
 	)
 	(junction
-		(at 99.06 107.95)
+		(at 109.22 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e21d5e55-333f-4421-abb9-17f1ceef2484")
@@ -2713,7 +2861,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 158.75) (xy 105.41 158.75)
+			(xy 66.04 158.75) (xy 115.57 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2733,7 +2881,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 144.78) (xy 62.23 144.78)
+			(xy 62.23 144.78) (xy 115.57 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2753,7 +2901,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 22.86) (xy 96.52 149.86)
+			(xy 95.25 46.99) (xy 115.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150aaedb-e89a-4f1c-bd35-45c3cecbdbbc")
+	)
+	(wire
+		(pts
+			(xy 106.68 22.86) (xy 106.68 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2763,7 +2921,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 163.83) (xy 96.52 149.86)
+			(xy 106.68 163.83) (xy 106.68 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2773,7 +2931,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 93.98) (xy 101.6 121.92)
+			(xy 111.76 93.98) (xy 111.76 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2783,7 +2941,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 44.45) (xy 124.46 49.53)
+			(xy 134.62 44.45) (xy 134.62 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2813,7 +2971,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 93.98) (xy 105.41 93.98)
+			(xy 111.76 93.98) (xy 115.57 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2823,7 +2981,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 38.1) (xy 101.6 66.04)
+			(xy 111.76 38.1) (xy 111.76 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2843,7 +3001,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 133.35) (xy 124.46 128.27)
+			(xy 134.62 133.35) (xy 134.62 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2853,7 +3011,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 17.78) (xy 101.6 38.1)
+			(xy 111.76 17.78) (xy 111.76 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2863,7 +3021,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 116.84) (xy 105.41 116.84)
+			(xy 73.66 116.84) (xy 115.57 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2873,7 +3031,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 80.01) (xy 99.06 107.95)
+			(xy 109.22 80.01) (xy 109.22 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2883,7 +3041,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 41.91) (xy 143.51 41.91)
+			(xy 149.86 41.91) (xy 153.67 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2923,7 +3081,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 119.38) (xy 124.46 119.38)
+			(xy 130.81 119.38) (xy 134.62 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2933,7 +3091,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 102.87) (xy 105.41 102.87)
+			(xy 95.25 102.87) (xy 115.57 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2943,7 +3101,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 121.92) (xy 105.41 121.92)
+			(xy 111.76 121.92) (xy 115.57 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2973,7 +3131,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 38.1) (xy 105.41 38.1)
+			(xy 111.76 38.1) (xy 115.57 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2993,7 +3151,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 147.32) (xy 123.19 147.32)
+			(xy 130.81 147.32) (xy 133.35 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3013,7 +3171,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 63.5) (xy 124.46 67.31)
+			(xy 134.62 63.5) (xy 134.62 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3033,13 +3191,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 20.32) (xy 99.06 52.07)
+			(xy 109.22 20.32) (xy 109.22 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "49320eb3-d268-4e79-8757-43f4759799e5")
+	)
+	(wire
+		(pts
+			(xy 95.25 74.93) (xy 115.57 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f36b01d-3015-44a3-b65b-162090945894")
 	)
 	(wire
 		(pts
@@ -3053,7 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 35.56) (xy 124.46 39.37)
+			(xy 134.62 35.56) (xy 134.62 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3063,7 +3231,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 163.83) (xy 96.52 163.83)
+			(xy 115.57 163.83) (xy 106.68 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3083,7 +3251,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 125.73) (xy 143.51 125.73)
+			(xy 149.86 125.73) (xy 153.67 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3093,7 +3261,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 72.39) (xy 124.46 77.47)
+			(xy 91.44 99.06) (xy 91.44 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64244e5d-a079-4ec1-a0ea-2e0fb165a18d")
+	)
+	(wire
+		(pts
+			(xy 134.62 72.39) (xy 134.62 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3113,7 +3291,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 80.01) (xy 105.41 80.01)
+			(xy 109.22 80.01) (xy 115.57 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3123,17 +3301,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 71.12) (xy 91.44 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69ea27db-2374-4543-87c8-1d5dbc24a2fa")
-	)
-	(wire
-		(pts
-			(xy 101.6 66.04) (xy 101.6 93.98)
+			(xy 111.76 66.04) (xy 111.76 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3143,13 +3311,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 74.93) (xy 105.41 74.93)
+			(xy 91.44 74.93) (xy 91.44 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6bb2c1b1-e0f4-4b09-9f29-bf1eadf6025a")
+		(uuid "6e1a408c-fac4-4483-b1b3-df6532d9df3a")
 	)
 	(wire
 		(pts
@@ -3163,7 +3331,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 35.56) (xy 124.46 35.56)
+			(xy 130.81 35.56) (xy 134.62 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3173,7 +3341,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 60.96) (xy 105.41 60.96)
+			(xy 91.44 46.99) (xy 95.25 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f7ec65-f003-4770-9be1-dbdb981e2c46")
+	)
+	(wire
+		(pts
+			(xy 66.04 60.96) (xy 115.57 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3183,7 +3361,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 33.02) (xy 62.23 33.02)
+			(xy 62.23 33.02) (xy 115.57 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3193,7 +3371,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 49.53) (xy 120.65 49.53)
+			(xy 134.62 49.53) (xy 130.81 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3203,13 +3381,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 46.99) (xy 91.44 43.18)
+			(xy 96.52 130.81) (xy 115.57 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b3a4fb1-696c-4974-89ea-93bdf843507c")
+		(uuid "7c1c4b6c-6436-46ff-9344-f91be39d7923")
 	)
 	(wire
 		(pts
@@ -3233,7 +3411,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 107.95) (xy 105.41 107.95)
+			(xy 109.22 107.95) (xy 115.57 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3243,7 +3421,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 135.89) (xy 105.41 135.89)
+			(xy 109.22 135.89) (xy 115.57 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3273,7 +3451,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 66.04) (xy 105.41 66.04)
+			(xy 111.76 66.04) (xy 115.57 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3283,7 +3461,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 97.79) (xy 143.51 97.79)
+			(xy 149.86 97.79) (xy 153.67 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3293,7 +3471,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 107.95) (xy 99.06 135.89)
+			(xy 109.22 107.95) (xy 109.22 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3303,17 +3481,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 130.81) (xy 91.44 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f7beff2-6182-4c50-b87a-d9d99a8fec4b")
-	)
-	(wire
-		(pts
-			(xy 120.65 133.35) (xy 124.46 133.35)
+			(xy 130.81 133.35) (xy 134.62 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3323,7 +3491,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 63.5) (xy 124.46 63.5)
+			(xy 130.81 63.5) (xy 134.62 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3333,7 +3501,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 52.07) (xy 105.41 52.07)
+			(xy 109.22 52.07) (xy 115.57 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3363,7 +3531,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 149.86) (xy 105.41 149.86)
+			(xy 106.68 149.86) (xy 115.57 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3373,7 +3541,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 91.44) (xy 124.46 95.25)
+			(xy 134.62 91.44) (xy 134.62 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3403,7 +3571,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 161.29) (xy 123.19 161.29)
+			(xy 130.81 161.29) (xy 133.35 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3423,7 +3591,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 100.33) (xy 124.46 105.41)
+			(xy 134.62 100.33) (xy 134.62 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3433,7 +3601,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 77.47) (xy 120.65 77.47)
+			(xy 134.62 77.47) (xy 130.81 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3453,7 +3621,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 91.44) (xy 124.46 91.44)
+			(xy 91.44 130.81) (xy 96.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4083ed8-9efe-426d-8f52-0a2c807786b0")
+	)
+	(wire
+		(pts
+			(xy 130.81 91.44) (xy 134.62 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3473,7 +3651,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 88.9) (xy 105.41 88.9)
+			(xy 69.85 88.9) (xy 115.57 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3503,16 +3681,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 102.87) (xy 91.44 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5a62bb8-25a8-4b86-82b1-4ed5ddc4efcd")
-	)
-	(wire
-		(pts
 			(xy 171.45 130.81) (xy 187.96 130.81)
 		)
 		(stroke
@@ -3523,7 +3691,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 69.85) (xy 143.51 69.85)
+			(xy 149.86 69.85) (xy 153.67 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3533,7 +3701,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 52.07) (xy 99.06 80.01)
+			(xy 91.44 127) (xy 91.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2994c0c-b624-4320-b316-e64cc052fc23")
+	)
+	(wire
+		(pts
+			(xy 109.22 52.07) (xy 109.22 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3543,17 +3721,27 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 46.99) (xy 91.44 46.99)
+			(xy 91.44 43.18) (xy 91.44 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e53e8a11-7eb1-4513-9bcf-c262fde2f313")
+		(uuid "e64673e8-165c-4e72-b56e-b7cca90b3530")
 	)
 	(wire
 		(pts
-			(xy 124.46 105.41) (xy 120.65 105.41)
+			(xy 95.25 74.93) (xy 91.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee801b62-ddf4-4b0e-8378-1e2b201c8eaf")
+	)
+	(wire
+		(pts
+			(xy 134.62 105.41) (xy 130.81 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3563,7 +3751,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 119.38) (xy 124.46 123.19)
+			(xy 91.44 102.87) (xy 95.25 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4ff980-8a78-4801-bcfb-84945b664de6")
+	)
+	(wire
+		(pts
+			(xy 134.62 119.38) (xy 134.62 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3580,16 +3778,6 @@
 			(type default)
 		)
 		(uuid "f50f3127-e292-4938-be40-5bfae942d46a")
-	)
-	(wire
-		(pts
-			(xy 91.44 130.81) (xy 91.44 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5a4236e-ddea-4a27-a2e5-189c5f61c91c")
 	)
 	(wire
 		(pts
@@ -3613,7 +3801,7 @@
 	)
 	(hierarchical_label "OUT_MUL_B0"
 		(shape output)
-		(at 123.19 147.32 0)
+		(at 133.35 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3624,7 +3812,7 @@
 	)
 	(hierarchical_label "IN_ADD"
 		(shape input)
-		(at 101.6 17.78 180)
+		(at 111.76 17.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3635,7 +3823,7 @@
 	)
 	(hierarchical_label "OUT_ADD_B2"
 		(shape output)
-		(at 143.51 97.79 0)
+		(at 153.67 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3668,7 +3856,7 @@
 	)
 	(hierarchical_label "OUT_ADD_B3"
 		(shape output)
-		(at 143.51 125.73 0)
+		(at 153.67 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3679,7 +3867,7 @@
 	)
 	(hierarchical_label "IN_MUL"
 		(shape input)
-		(at 96.52 22.86 180)
+		(at 106.68 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3690,7 +3878,7 @@
 	)
 	(hierarchical_label "OUT_ADD_B0"
 		(shape output)
-		(at 143.51 41.91 0)
+		(at 153.67 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3701,7 +3889,7 @@
 	)
 	(hierarchical_label "OUT_ADD_B1"
 		(shape output)
-		(at 143.51 69.85 0)
+		(at 153.67 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3723,7 +3911,7 @@
 	)
 	(hierarchical_label "OUT_MUL_B1"
 		(shape output)
-		(at 123.19 161.29 0)
+		(at 133.35 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3734,7 +3922,7 @@
 	)
 	(hierarchical_label "IN_SUB"
 		(shape input)
-		(at 99.06 20.32 180)
+		(at 109.22 20.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3926,8 +4114,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 95.25 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11815dcb-3362-4394-b8de-2378492cbec0")
+		(property "Reference" "R23"
+			(at 92.964 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 97.79 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 93.472 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfdba1c4-7eae-4072-a3db-22d40e6741b6")
+		)
+		(pin "1"
+			(uuid "967f5486-b1b1-4ccd-bb1a-28a3caf37520")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS08")
-		(at 113.03 105.41 0)
+		(at 123.19 105.41 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3936,7 +4193,7 @@
 		(fields_autoplaced yes)
 		(uuid "365f5c76-fedc-4d8e-bc91-5a1ac6bd8ac5")
 		(property "Reference" "U12"
-			(at 113.0217 96.52 0)
+			(at 123.1817 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +4201,7 @@
 			)
 		)
 		(property "Value" "SN74LS08N"
-			(at 113.0217 99.06 0)
+			(at 123.1817 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +4209,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 113.03 105.41 0)
+			(at 123.19 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +4218,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
-			(at 113.03 105.41 0)
+			(at 123.19 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +4227,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 113.03 105.41 0)
+			(at 123.19 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,6 +4523,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 95.25 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41a06d1e-86c1-4ab8-bf98-3a0101571d83")
+		(property "Reference" "R24"
+			(at 92.964 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 97.79 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 93.472 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c95b68f-5677-4d21-96ea-c0306a2b3a49")
+		)
+		(pin "1"
+			(uuid "2a143304-e23c-4643-814f-ea0fd075b7fa")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 87.63 53.34 0)
 		(unit 1)
@@ -4332,7 +4658,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 113.03 133.35 0)
+		(at 123.19 133.35 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4341,7 +4667,7 @@
 		(fields_autoplaced yes)
 		(uuid "46a62217-1e05-41c0-bbb3-b2e547fb32f3")
 		(property "Reference" "U11"
-			(at 113.0217 124.46 0)
+			(at 123.1817 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4675,7 @@
 			)
 		)
 		(property "Value" "SN74LS08N"
-			(at 113.0217 127 0)
+			(at 123.1817 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4683,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 113.03 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,7 +4692,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
-			(at 113.03 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,7 +4701,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 113.03 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4444,7 +4770,7 @@
 		(dnp no)
 		(uuid "479ec4bd-e878-436e-a31d-d3f5607540f5")
 		(property "Reference" "Q2"
-			(at 82.55 38.862 0)
+			(at 81.788 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,6 +4785,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
@@ -4508,7 +4835,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 113.03 161.29 0)
+		(at 123.19 161.29 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4517,7 +4844,7 @@
 		(fields_autoplaced yes)
 		(uuid "4eb80b80-c2c9-4d7b-a7a1-54047c3db97c")
 		(property "Reference" "U12"
-			(at 113.0217 152.4 0)
+			(at 123.1817 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +4852,7 @@
 			)
 		)
 		(property "Value" "SN74LS08N"
-			(at 113.0217 154.94 0)
+			(at 123.1817 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,7 +4860,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 113.03 161.29 0)
+			(at 123.19 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,7 +4869,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
-			(at 113.03 161.29 0)
+			(at 123.19 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,7 +4878,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 113.03 161.29 0)
+			(at 123.19 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4939,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 113.03 91.44 0)
+		(at 123.19 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4621,7 +4948,7 @@
 		(fields_autoplaced yes)
 		(uuid "532174bd-834f-4142-894f-e1b580a73070")
 		(property "Reference" "U12"
-			(at 113.0217 82.55 0)
+			(at 123.1817 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,7 +4956,7 @@
 			)
 		)
 		(property "Value" "SN74LS08N"
-			(at 113.0217 85.09 0)
+			(at 123.1817 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +4964,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 113.03 91.44 0)
+			(at 123.19 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4973,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
-			(at 113.03 91.44 0)
+			(at 123.19 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4982,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 113.03 91.44 0)
+			(at 123.19 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,7 +5223,7 @@
 		(dnp no)
 		(uuid "5b3606b9-f512-4b82-8389-b63225535d87")
 		(property "Reference" "Q3"
-			(at 82.55 66.802 0)
+			(at 82.042 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,6 +5238,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
@@ -4960,7 +5288,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 113.03 119.38 0)
+		(at 123.19 119.38 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4969,7 +5297,7 @@
 		(fields_autoplaced yes)
 		(uuid "63615dbd-9ea9-446b-a5eb-b49cfeda8dbd")
 		(property "Reference" "U11"
-			(at 113.0217 110.49 0)
+			(at 123.1817 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +5305,7 @@
 			)
 		)
 		(property "Value" "SN74LS08N"
-			(at 113.0217 113.03 0)
+			(at 123.1817 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +5313,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 113.03 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +5322,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
-			(at 113.03 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +5331,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 113.03 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,7 +5462,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 113.03 35.56 0)
+		(at 123.19 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5143,7 +5471,7 @@
 		(fields_autoplaced yes)
 		(uuid "71536dfb-c52c-4943-a24c-066196f5df18")
 		(property "Reference" "U11"
-			(at 113.0217 26.67 0)
+			(at 123.1817 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,7 +5479,7 @@
 			)
 		)
 		(property "Value" "SN74LS08N"
-			(at 113.0217 29.21 0)
+			(at 123.1817 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,7 +5487,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 113.03 35.56 0)
+			(at 123.19 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,7 +5496,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
-			(at 113.03 35.56 0)
+			(at 123.19 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +5505,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 113.03 35.56 0)
+			(at 123.19 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,6 +5559,72 @@
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 96.52 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73091b96-f684-4ebc-a22d-61c08fa7f9ad")
+		(property "Reference" "#PWR051"
+			(at 96.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 96.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 96.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d7a7b79-e25d-452e-9ece-3182087f53c8")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5367,6 +5761,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 95.25 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f299da6-0072-4111-be0c-682258090ece")
+		(property "Reference" "#PWR054"
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 95.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 95.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "963bd932-c69b-4cce-8fd8-0c34c75a0ba5")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 265.43 156.21 0)
 		(unit 1)
@@ -5442,7 +5902,7 @@
 		(dnp no)
 		(uuid "8102c67e-c2c1-4a9f-8666-ea2c1a26299e")
 		(property "Reference" "Q4"
-			(at 82.55 94.742 0)
+			(at 82.042 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5457,6 +5917,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
@@ -5506,7 +5967,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 113.03 77.47 0)
+		(at 123.19 77.47 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5515,7 +5976,7 @@
 		(fields_autoplaced yes)
 		(uuid "953775ba-1da4-40e2-9fe5-55f92fad1bcb")
 		(property "Reference" "U9"
-			(at 113.0217 68.58 0)
+			(at 123.1817 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,7 +5984,7 @@
 			)
 		)
 		(property "Value" "SN74LS08N"
-			(at 113.0217 71.12 0)
+			(at 123.1817 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5992,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 113.03 77.47 0)
+			(at 123.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +6001,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
-			(at 113.03 77.47 0)
+			(at 123.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +6010,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 113.03 77.47 0)
+			(at 123.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,7 +6071,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 132.08 41.91 0)
+		(at 142.24 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5619,7 +6080,7 @@
 		(fields_autoplaced yes)
 		(uuid "96052c6a-5b6f-4771-a0cc-782670cf0dc1")
 		(property "Reference" "U13"
-			(at 132.08 33.02 0)
+			(at 142.24 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,7 +6088,7 @@
 			)
 		)
 		(property "Value" "CD74HCT32E"
-			(at 132.08 35.56 0)
+			(at 142.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +6096,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 132.08 41.91 0)
+			(at 142.24 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,7 +6105,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd54hct32.pdf"
-			(at 132.08 41.91 0)
+			(at 142.24 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +6114,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 132.08 41.91 0)
+			(at 142.24 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,8 +6174,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 95.25 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0f756eb-3ea4-496f-8752-a487e7c6ac8a")
+		(property "Reference" "#PWR052"
+			(at 95.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 95.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f43c2fe7-7b29-4f6a-b8e8-049df71b43a6")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS08")
-		(at 113.03 147.32 0)
+		(at 123.19 147.32 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5723,7 +6250,7 @@
 		(fields_autoplaced yes)
 		(uuid "a12be04b-aa6d-403f-8681-fbf66c9aa476")
 		(property "Reference" "U12"
-			(at 113.0217 138.43 0)
+			(at 123.1817 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5731,7 +6258,7 @@
 			)
 		)
 		(property "Value" "SN74LS08N"
-			(at 113.0217 140.97 0)
+			(at 123.1817 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +6266,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 113.03 147.32 0)
+			(at 123.19 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5748,7 +6275,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
-			(at 113.03 147.32 0)
+			(at 123.19 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +6284,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 113.03 147.32 0)
+			(at 123.19 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +6546,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 113.03 63.5 0)
+		(at 123.19 63.5 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6027,7 +6554,7 @@
 		(dnp no)
 		(uuid "bba4e830-79a8-4420-a942-6147f2da7654")
 		(property "Reference" "U9"
-			(at 113.0217 54.61 0)
+			(at 123.1817 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,7 +6562,7 @@
 			)
 		)
 		(property "Value" "SN74LS08N"
-			(at 113.0217 57.15 0)
+			(at 123.1817 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +6570,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 113.03 63.5 0)
+			(at 123.19 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +6579,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
-			(at 113.03 63.5 0)
+			(at 123.19 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +6588,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 113.03 63.5 0)
+			(at 123.19 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,6 +6648,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 95.25 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc896c01-b799-4877-b14e-ce40f0289da9")
+		(property "Reference" "R22"
+			(at 92.964 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 97.79 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 93.472 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd075231-5658-4b7b-8101-a0869e95ad22")
+		)
+		(pin "1"
+			(uuid "24cd6a29-1c66-42bd-9bb5-70a98b10858b")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_DGS")
 		(at 85.09 132.08 0)
 		(unit 1)
@@ -6130,7 +6726,7 @@
 		(dnp no)
 		(uuid "bd5bf4c1-ed1d-4e82-8fcd-34dbc5848d24")
 		(property "Reference" "Q5"
-			(at 82.55 122.682 0)
+			(at 82.042 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6145,6 +6741,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
@@ -6193,8 +6790,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 96.52 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd99f57d-72d3-4839-9a1c-1dc4c3a59fd7")
+		(property "Reference" "R21"
+			(at 94.234 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 99.06 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 94.742 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f22b623c-755f-48ca-b45f-091b5a85e61a")
+		)
+		(pin "1"
+			(uuid "1ba5fdd7-7996-4695-ab38-369c7e4d71d7")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS08")
-		(at 113.03 49.53 0)
+		(at 123.19 49.53 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6203,7 +6869,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf2a6222-a40f-4386-9c69-186fcd1c021d")
 		(property "Reference" "U11"
-			(at 113.0217 40.64 0)
+			(at 123.1817 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6211,7 +6877,7 @@
 			)
 		)
 		(property "Value" "SN74LS08N"
-			(at 113.0217 43.18 0)
+			(at 123.1817 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,7 +6885,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 113.03 49.53 0)
+			(at 123.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +6894,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf"
-			(at 113.03 49.53 0)
+			(at 123.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +6903,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 113.03 49.53 0)
+			(at 123.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,8 +6963,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 95.25 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c59c7267-5491-4a40-9f1e-e93b548025d8")
+		(property "Reference" "#PWR053"
+			(at 95.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 95.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41881c01-6bd5-489c-91a6-934edb9ce572")
+		)
+		(instances
+			(project "alu"
+				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/e08b8046-a666-4685-8ce4-06ee0f7f0287"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS32")
-		(at 132.08 97.79 0)
+		(at 142.24 97.79 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6307,7 +7039,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd74d813-a878-4dfa-9737-1455cbe25c55")
 		(property "Reference" "U13"
-			(at 132.08 88.9 0)
+			(at 142.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6315,7 +7047,7 @@
 			)
 		)
 		(property "Value" "CD74HCT32E"
-			(at 132.08 91.44 0)
+			(at 142.24 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +7055,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 132.08 97.79 0)
+			(at 142.24 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6332,7 +7064,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd54hct32.pdf"
-			(at 132.08 97.79 0)
+			(at 142.24 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +7073,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 132.08 97.79 0)
+			(at 142.24 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,7 +7134,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 132.08 69.85 0)
+		(at 142.24 69.85 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6411,7 +7143,7 @@
 		(fields_autoplaced yes)
 		(uuid "d57bed6e-2c5f-47d8-888e-c533f798f5b5")
 		(property "Reference" "U13"
-			(at 132.08 60.96 0)
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,7 +7151,7 @@
 			)
 		)
 		(property "Value" "CD74HCT32E"
-			(at 132.08 63.5 0)
+			(at 142.24 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6427,7 +7159,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 132.08 69.85 0)
+			(at 142.24 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6436,7 +7168,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd54hct32.pdf"
-			(at 132.08 69.85 0)
+			(at 142.24 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6445,7 +7177,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 132.08 69.85 0)
+			(at 142.24 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6506,7 +7238,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 132.08 125.73 0)
+		(at 142.24 125.73 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6515,7 +7247,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7fc5816-30cb-4fef-a551-07ad1ddd0b11")
 		(property "Reference" "U13"
-			(at 132.08 116.84 0)
+			(at 142.24 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6523,7 +7255,7 @@
 			)
 		)
 		(property "Value" "CD74HCT32E"
-			(at 132.08 119.38 0)
+			(at 142.24 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6531,7 +7263,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 132.08 125.73 0)
+			(at 142.24 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,7 +7272,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd54hct32.pdf"
-			(at 132.08 125.73 0)
+			(at 142.24 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6549,7 +7281,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 132.08 125.73 0)
+			(at 142.24 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
