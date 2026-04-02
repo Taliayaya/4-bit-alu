@@ -2142,6 +2142,66 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "OUT_MUL_0 => IN_A0 && IN_B0\nOUT_MUL_1 => (IN_A0 && IN_B1) xor (IN_A1 && IN_B0)\nOUT_MUL_2 => ((IN_A0 && IN_B1) xor (IN_A1 && IN_B0)) xor (A1 && B1)\nOUT_MUL_3 => (IN_A0 && IN_B1) xor (IN_A1 && IN_B0) && (A1 && B1)\n"
+		(exclude_from_sim no)
+		(at 153.67 40.64 0)
+		(size 77.47 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "443077c1-329a-46e9-a620-f6e3efd7dbb3")
+	)
+	(text_box "=> OUT_MUL_0 = 0\n=> OUT_MUL_1 = 1\n=> OUT_MUL_2 = 1\n=> OUT_MUL_3 = 0"
+		(exclude_from_sim no)
+		(at 180.34 107.95 0)
+		(size 27.94 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6ae2d523-af42-4205-8620-777f36baf303")
+	)
+	(text_box "Ex: A = 2 ; B = 3 \n	=> A0 = 0\n	=> A1 = 1\n\n	=> B0 = 1\n	=> B1 = 1 "
+		(exclude_from_sim no)
+		(at 157.48 104.14 0)
+		(size 20.32 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "dab0e9c9-23a2-4f82-ad58-112d4de2777a")
+	)
 	(junction
 		(at 45.72 120.65)
 		(diameter 0)
@@ -2758,6 +2818,16 @@
 		)
 		(uuid "daf58fec-290e-4b33-97fd-e3085bbd5576")
 	)
+	(polyline
+		(pts
+			(xy 182.88 53.34) (xy 182.88 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db84351f-d877-4367-b044-15b270825c88")
+	)
 	(wire
 		(pts
 			(xy 105.41 82.55) (xy 105.41 76.2)
@@ -2767,6 +2837,16 @@
 			(type default)
 		)
 		(uuid "ddc2e25e-12c0-40af-acb7-ca768746f880")
+	)
+	(polyline
+		(pts
+			(xy 181.61 53.34) (xy 181.61 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02e0573-71fe-47fb-9560-536352878e91")
 	)
 	(wire
 		(pts
@@ -2808,6 +2888,2344 @@
 		)
 		(uuid "f8ae6aa9-a34e-4de3-b6ae-94eb284cfefa")
 	)
+	(table
+		(column_count 8)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 7.366 7.112 6.858 7.62 13.97 12.7 12.7 12.7)
+		(row_heights 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794
+			2.794 2.794 2.794 2.794 2.794 2.794 2.794
+		)
+		(cells
+			(table_cell "IN_A0"
+				(exclude_from_sim no)
+				(at 152.654 53.848 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "77d59271-0888-464d-8101-cb389b17aa93")
+			)
+			(table_cell "IN_A1"
+				(exclude_from_sim no)
+				(at 160.02 53.848 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "d5f90631-eeb8-4364-8a90-950d48d79af3")
+			)
+			(table_cell "IN_B0"
+				(exclude_from_sim no)
+				(at 167.132 53.848 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "299cdbf2-7336-49e9-8e92-673f2de16647")
+			)
+			(table_cell "IN_B1"
+				(exclude_from_sim no)
+				(at 173.99 53.848 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "240e477f-e6ce-455a-b760-f9b42430c8fd")
+			)
+			(table_cell "OUT_MUL_0"
+				(exclude_from_sim no)
+				(at 181.61 53.848 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+				(uuid "240e477f-e6ce-455a-b760-f9b42430c8fd")
+			)
+			(table_cell "OUT_MUL_1"
+				(exclude_from_sim no)
+				(at 195.58 53.848 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "240e477f-e6ce-455a-b760-f9b42430c8fd")
+			)
+			(table_cell "OUT_MUL_2"
+				(exclude_from_sim no)
+				(at 208.28 53.848 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "240e477f-e6ce-455a-b760-f9b42430c8fd")
+			)
+			(table_cell "OUT_MUL_3"
+				(exclude_from_sim no)
+				(at 220.98 53.848 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "240e477f-e6ce-455a-b760-f9b42430c8fd")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 152.654 56.642 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "eebb9e7d-daca-48e6-aee2-e75f01bac3df")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 160.02 56.642 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "5a8b5deb-1447-4c68-96db-a05d5989a8b7")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 167.132 56.642 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f4a010c4-4d5d-4263-81e4-4d07c371cb2f")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 173.99 56.642 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "3d8f67b3-aff6-4cc0-ae38-f466abfde946")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 181.61 56.642 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "3d8f67b3-aff6-4cc0-ae38-f466abfde946")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 195.58 56.642 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "3d8f67b3-aff6-4cc0-ae38-f466abfde946")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 208.28 56.642 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "3d8f67b3-aff6-4cc0-ae38-f466abfde946")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 56.642 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "3d8f67b3-aff6-4cc0-ae38-f466abfde946")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 152.654 59.436 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "76055791-b012-4fcd-8e24-55eec6b36d76")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 160.02 59.436 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "54157b15-cc1e-4768-95da-53560f02e7c3")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 167.132 59.436 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "d228d515-b8d1-435b-b116-a0ee0ec7d2b9")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 173.99 59.436 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "13cf678a-de36-4f4f-9786-a446fd7f4ec9")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 181.61 59.436 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "13cf678a-de36-4f4f-9786-a446fd7f4ec9")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 195.58 59.436 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "13cf678a-de36-4f4f-9786-a446fd7f4ec9")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 208.28 59.436 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "13cf678a-de36-4f4f-9786-a446fd7f4ec9")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 59.436 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "13cf678a-de36-4f4f-9786-a446fd7f4ec9")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 152.654 62.23 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "2d154ad4-0965-4650-9d83-afcedb669509")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 160.02 62.23 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "862b9bef-08fd-4b53-80d8-9a68e67795b0")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 167.132 62.23 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "623b3229-669a-49c3-94e4-c9217c9eb59c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 173.99 62.23 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "51a04d81-e111-480b-acd9-bbc54fd6c63c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 181.61 62.23 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "51a04d81-e111-480b-acd9-bbc54fd6c63c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 195.58 62.23 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "51a04d81-e111-480b-acd9-bbc54fd6c63c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 208.28 62.23 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "51a04d81-e111-480b-acd9-bbc54fd6c63c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 62.23 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "51a04d81-e111-480b-acd9-bbc54fd6c63c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 152.654 65.024 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "eac08b93-d2f0-424b-8b60-b4c29af209aa")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 160.02 65.024 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "49a96280-3057-4338-84b7-eae1f912e440")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 167.132 65.024 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "bab6a791-4056-4be8-8a14-13f4ee0bff31")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 173.99 65.024 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "2bc9c343-95ec-4e1a-a119-ac51d349fa6c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 181.61 65.024 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "2bc9c343-95ec-4e1a-a119-ac51d349fa6c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 195.58 65.024 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "2bc9c343-95ec-4e1a-a119-ac51d349fa6c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 208.28 65.024 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "2bc9c343-95ec-4e1a-a119-ac51d349fa6c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 65.024 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "2bc9c343-95ec-4e1a-a119-ac51d349fa6c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 152.654 67.818 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "eaa6aa53-6670-4e99-aefb-67dec65d4699")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 160.02 67.818 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "3c36b653-3708-41a9-85e8-0338395a1373")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 167.132 67.818 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "609196a1-0176-4e90-b992-dde02fbbda8d")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 173.99 67.818 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "931062bd-58a0-4a9a-a5a8-2c2aa3f55238")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 181.61 67.818 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "931062bd-58a0-4a9a-a5a8-2c2aa3f55238")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 195.58 67.818 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "931062bd-58a0-4a9a-a5a8-2c2aa3f55238")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 208.28 67.818 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "931062bd-58a0-4a9a-a5a8-2c2aa3f55238")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 67.818 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "931062bd-58a0-4a9a-a5a8-2c2aa3f55238")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 152.654 70.612 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "dba0edd9-a818-4f7e-b6dc-c6577950d49f")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 160.02 70.612 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "48b7c73b-08ef-486c-b463-db3586f4781c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 167.132 70.612 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "ae20e408-6d88-47be-8598-effa1b8a2f2c")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 173.99 70.612 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "6e9aa4c6-ee85-4c74-9848-732620e7fdfb")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 181.61 70.612 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "6e9aa4c6-ee85-4c74-9848-732620e7fdfb")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 195.58 70.612 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "6e9aa4c6-ee85-4c74-9848-732620e7fdfb")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 208.28 70.612 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "6e9aa4c6-ee85-4c74-9848-732620e7fdfb")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 70.612 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "6e9aa4c6-ee85-4c74-9848-732620e7fdfb")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 152.654 73.406 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "5b10f609-75ee-41e9-a5a0-a46b054adb1b")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 160.02 73.406 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "7c42c5a1-7a14-47bd-a848-b5e84cd958df")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 167.132 73.406 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f2f7ae1c-9643-40d9-91b9-0c7a1935cebc")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 173.99 73.406 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "0a57a0c8-21bb-4c6b-96df-4fe2f6ae703f")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 181.61 73.406 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "0a57a0c8-21bb-4c6b-96df-4fe2f6ae703f")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 195.58 73.406 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "0a57a0c8-21bb-4c6b-96df-4fe2f6ae703f")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 208.28 73.406 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "0a57a0c8-21bb-4c6b-96df-4fe2f6ae703f")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 73.406 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "0a57a0c8-21bb-4c6b-96df-4fe2f6ae703f")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 152.654 76.2 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "5bbfcbd3-3e11-4bb8-b60e-9035253d5f9c")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 160.02 76.2 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "7bd1d10d-2602-4461-a6fd-d84a2ee76b45")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 167.132 76.2 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "5ee0e8b4-98f0-4516-b191-23e51bd67722")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 173.99 76.2 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "9f0532cb-3014-4e9a-adfd-7fc7ff318626")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 181.61 76.2 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "9f0532cb-3014-4e9a-adfd-7fc7ff318626")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 195.58 76.2 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "9f0532cb-3014-4e9a-adfd-7fc7ff318626")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 208.28 76.2 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "9f0532cb-3014-4e9a-adfd-7fc7ff318626")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 76.2 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "9f0532cb-3014-4e9a-adfd-7fc7ff318626")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 152.654 78.994 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "9f034bba-55fd-4cb2-bebf-6b14d62f37a3")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 160.02 78.994 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "20535a1b-2bd7-4799-942d-3074fc984b0f")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 167.132 78.994 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "24113cda-53c1-42cd-8a18-4e2e0be153a4")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 173.99 78.994 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f3b1deea-b4d5-4585-a5a2-5c9459fd0d7f")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 181.61 78.994 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f3b1deea-b4d5-4585-a5a2-5c9459fd0d7f")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 195.58 78.994 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f3b1deea-b4d5-4585-a5a2-5c9459fd0d7f")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 208.28 78.994 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f3b1deea-b4d5-4585-a5a2-5c9459fd0d7f")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 78.994 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f3b1deea-b4d5-4585-a5a2-5c9459fd0d7f")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 152.654 81.788 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f0362d48-ce86-49d1-b87e-24673d2831ce")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 160.02 81.788 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "596b0b28-bf1e-4cfa-979e-3275e394b1df")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 167.132 81.788 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "1657d390-162f-4b2c-816c-80e27fbf0afd")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 173.99 81.788 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "8a5bd1c3-9247-4596-a261-0eb22ec5fb5c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 181.61 81.788 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "8a5bd1c3-9247-4596-a261-0eb22ec5fb5c")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 195.58 81.788 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "8a5bd1c3-9247-4596-a261-0eb22ec5fb5c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 208.28 81.788 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "8a5bd1c3-9247-4596-a261-0eb22ec5fb5c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 81.788 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "8a5bd1c3-9247-4596-a261-0eb22ec5fb5c")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 152.654 84.582 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "59ae9428-f51e-4e50-9859-87e11336a791")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 160.02 84.582 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "a95aa49a-0aad-4368-b5ae-7f6634a24c8f")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 167.132 84.582 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "41f100f7-c3ab-43e7-ad4c-6a8bb5413765")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 173.99 84.582 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f638b263-a0da-4a54-b907-ceb96bb9a91d")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 181.61 84.582 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f638b263-a0da-4a54-b907-ceb96bb9a91d")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 195.58 84.582 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f638b263-a0da-4a54-b907-ceb96bb9a91d")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 208.28 84.582 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f638b263-a0da-4a54-b907-ceb96bb9a91d")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 84.582 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f638b263-a0da-4a54-b907-ceb96bb9a91d")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 152.654 87.376 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 160.02 87.376 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "c617ff7f-3a45-4f94-903d-5d93195e6d90")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 167.132 87.376 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "dfbb1c4a-349c-4a98-a1a1-818222b35579")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 173.99 87.376 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "74826833-f13f-4c77-8e4f-d8a964b8f07c")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 181.61 87.376 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "74826833-f13f-4c77-8e4f-d8a964b8f07c")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 195.58 87.376 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "74826833-f13f-4c77-8e4f-d8a964b8f07c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 208.28 87.376 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "74826833-f13f-4c77-8e4f-d8a964b8f07c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 87.376 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "74826833-f13f-4c77-8e4f-d8a964b8f07c")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 152.654 90.17 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "74826833-f13f-4c77-8e4f-d8a964b8f07c")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 160.02 90.17 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "74826833-f13f-4c77-8e4f-d8a964b8f07c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 167.132 90.17 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "dfbb1c4a-349c-4a98-a1a1-818222b35579")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 173.99 90.17 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "c617ff7f-3a45-4f94-903d-5d93195e6d90")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 181.61 90.17 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 195.58 90.17 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 208.28 90.17 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 90.17 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 152.654 92.964 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "74826833-f13f-4c77-8e4f-d8a964b8f07c")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 160.02 92.964 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "74826833-f13f-4c77-8e4f-d8a964b8f07c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 167.132 92.964 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "dfbb1c4a-349c-4a98-a1a1-818222b35579")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 173.99 92.964 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "c617ff7f-3a45-4f94-903d-5d93195e6d90")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 181.61 92.964 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 195.58 92.964 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 208.28 92.964 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 92.964 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 152.654 95.758 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "74826833-f13f-4c77-8e4f-d8a964b8f07c")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 160.02 95.758 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "74826833-f13f-4c77-8e4f-d8a964b8f07c")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 167.132 95.758 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "dfbb1c4a-349c-4a98-a1a1-818222b35579")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 173.99 95.758 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "c617ff7f-3a45-4f94-903d-5d93195e6d90")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 181.61 95.758 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 195.58 95.758 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 208.28 95.758 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 220.98 95.758 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 152.654 98.552 0)
+				(size 7.366 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "74826833-f13f-4c77-8e4f-d8a964b8f07c")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 160.02 98.552 0)
+				(size 7.112 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "74826833-f13f-4c77-8e4f-d8a964b8f07c")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 167.132 98.552 0)
+				(size 6.858 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "dfbb1c4a-349c-4a98-a1a1-818222b35579")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 173.99 98.552 0)
+				(size 7.62 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "c617ff7f-3a45-4f94-903d-5d93195e6d90")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 181.61 98.552 0)
+				(size 13.97 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 195.58 98.552 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 208.28 98.552 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 220.98 98.552 0)
+				(size 12.7 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "774f1bbe-a71c-4a12-89f7-79b479eb64d2")
+			)
+		)
+	)
 	(hierarchical_label "OUT_MUL_2"
 		(shape output)
 		(at 132.08 73.66 0)
@@ -2822,14 +5240,14 @@
 	)
 	(hierarchical_label "IN_B0"
 		(shape input)
-		(at 53.34 99.06 180)
+		(at 53.34 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "70dd389b-a763-4d22-87af-6a22424d23d6")
+		(uuid "9365fb90-e93e-41fd-9b8b-95514c8dac46")
 	)
 	(hierarchical_label "IN_A0"
 		(shape input)
@@ -2877,7 +5295,7 @@
 	)
 	(hierarchical_label "IN_B1"
 		(shape input)
-		(at 53.34 87.63 180)
+		(at 53.34 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
