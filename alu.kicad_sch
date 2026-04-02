@@ -9102,7 +9102,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10k"
 			(at 102.87 45.7199 0)
 			(effects
 				(font
@@ -9237,7 +9237,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10k"
 			(at 113.03 45.7199 0)
 			(effects
 				(font
@@ -9542,7 +9542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10k"
 			(at 44.45 44.4499 0)
 			(effects
 				(font
@@ -9850,7 +9850,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10k"
 			(at 107.95 45.7199 0)
 			(effects
 				(font
@@ -10343,7 +10343,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10k"
 			(at 59.69 44.4499 0)
 			(effects
 				(font
@@ -10888,7 +10888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10k"
 			(at 49.53 93.9799 0)
 			(effects
 				(font
@@ -11716,7 +11716,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10k"
 			(at 54.61 44.4499 0)
 			(effects
 				(font
@@ -11990,7 +11990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10k"
 			(at 59.69 93.9799 0)
 			(effects
 				(font
@@ -12726,7 +12726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10k"
 			(at 49.53 44.4499 0)
 			(effects
 				(font
@@ -12938,7 +12938,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10k"
 			(at 54.61 93.9799 0)
 			(effects
 				(font
@@ -13073,7 +13073,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10k"
 			(at 44.45 93.9799 0)
 			(effects
 				(font
@@ -13248,7 +13248,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10k"
 			(at 97.79 45.7199 0)
 			(effects
 				(font
