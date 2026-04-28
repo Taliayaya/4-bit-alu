@@ -2051,7 +2051,7 @@
 			(uuid "933db913-0f75-4783-9f00-ee3c8196b303")
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 0.8 0.6)
 					(thickness 0.1)
 					(bold yes)
 				)
@@ -24745,6 +24745,18 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "bdb89fd5-721c-41af-9050-eadb109e3923")
+	)
+	(gr_text "2"
+		(at 66.9 84.95 90)
+		(layer "F.SilkS")
+		(uuid "96d593e0-8c04-43f5-82b1-7ece9988b3d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "1"
 		(at 67 82.5 90)
