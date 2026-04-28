@@ -1664,7 +1664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03cac700-8fd1-4797-a154-85ddf12b1b85")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 71.12 116.84 0)
 			(effects
 				(font
@@ -1714,7 +1714,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/5c1c7519-ef63-46db-b588-8e7d91f6be11"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -1730,7 +1730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2569b7a9-2299-4bda-ad57-23af561276f0")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 71.12 146.05 0)
 			(effects
 				(font
@@ -1780,7 +1780,7 @@
 		(instances
 			(project "alu"
 				(path "/4987240f-8890-46b8-b8e9-0d60580cb205/5c1c7519-ef63-46db-b588-8e7d91f6be11"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
