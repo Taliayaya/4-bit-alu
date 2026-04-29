@@ -4807,7 +4807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/pdf/999263/DIODES/DMG2302U-7.html"
 			(at 85.09 48.26 0)
 			(effects
 				(font
@@ -5259,7 +5259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/pdf/999263/DIODES/DMG2302U-7.html"
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -5436,7 +5436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
 			(at 212.09 142.24 0)
 			(effects
 				(font
@@ -6006,7 +6006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/pdf/999263/DIODES/DMG2302U-7.html"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -6523,7 +6523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
 			(at 248.92 143.51 0)
 			(effects
 				(font
@@ -6761,7 +6761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/pdf/999263/DIODES/DMG2302U-7.html"
 			(at 85.09 132.08 0)
 			(effects
 				(font
@@ -7250,7 +7250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
 			(at 171.45 143.51 0)
 			(effects
 				(font

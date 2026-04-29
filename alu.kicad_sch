@@ -9591,7 +9591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.rs-online.com/web/p/resistances-a-montage-en-surface/1995497?searchId=1d682765-f7fd-4c90-8fa5-1dd0058c9286&gb=s"
 			(at 252.73 137.16 0)
 			(effects
 				(font
@@ -9659,7 +9659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080RS75000.pdf"
 			(at 259.08 158.75 0)
 			(effects
 				(font
@@ -9738,7 +9738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.farnell.com/te-connectivity-neohm/crg0603j10k/res-10k-5-0-1w-0603-couche-epaisse/dp/3399584"
 			(at 100.33 44.45 0)
 			(effects
 				(font
@@ -10007,7 +10007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.farnell.com/te-connectivity-neohm/crg0603j10k/res-10k-5-0-1w-0603-couche-epaisse/dp/3399584"
 			(at 110.49 44.45 0)
 			(effects
 				(font
@@ -10310,7 +10310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.rs-online.com/web/p/resistances-a-montage-en-surface/1995497?searchId=1d682765-f7fd-4c90-8fa5-1dd0058c9286&gb=s"
 			(at 107.95 134.62 0)
 			(effects
 				(font
@@ -10648,7 +10648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.farnell.com/te-connectivity-neohm/crg0603j10k/res-10k-5-0-1w-0603-couche-epaisse/dp/3399584"
 			(at 41.91 43.18 0)
 			(effects
 				(font
@@ -11023,7 +11023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.farnell.com/te-connectivity-neohm/crg0603j10k/res-10k-5-0-1w-0603-couche-epaisse/dp/3399584"
 			(at 105.41 44.45 0)
 			(effects
 				(font
@@ -11225,7 +11225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080RS75000.pdf"
 			(at 260.35 149.86 0)
 			(effects
 				(font
@@ -11302,7 +11302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/418127270904/5208907"
 			(at 33.02 35.56 0)
 			(effects
 				(font
@@ -11493,7 +11493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/418127270904/5208907"
 			(at 86.36 33.02 0)
 			(effects
 				(font
@@ -11579,7 +11579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.rs-online.com/web/p/resistances-a-montage-en-surface/1995497?searchId=1d682765-f7fd-4c90-8fa5-1dd0058c9286&gb=s"
 			(at 252.73 149.86 0)
 			(effects
 				(font
@@ -11649,7 +11649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.farnell.com/te-connectivity-neohm/crg0603j10k/res-10k-5-0-1w-0603-couche-epaisse/dp/3399584"
 			(at 57.15 43.18 0)
 			(effects
 				(font
@@ -12062,7 +12062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.rs-online.com/web/p/resistances-a-montage-en-surface/1995497?searchId=1d682765-f7fd-4c90-8fa5-1dd0058c9286&gb=s"
 			(at 107.95 130.81 0)
 			(effects
 				(font
@@ -12463,7 +12463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.farnell.com/te-connectivity-neohm/crg0603j10k/res-10k-5-0-1w-0603-couche-epaisse/dp/3399584"
 			(at 46.99 92.71 0)
 			(effects
 				(font
@@ -12531,7 +12531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080RS75000.pdf"
 			(at 115.57 127 0)
 			(effects
 				(font
@@ -12608,7 +12608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080RS75000.pdf"
 			(at 260.35 143.51 0)
 			(effects
 				(font
@@ -12687,7 +12687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/en/components/products/WCAP-CSGP-25VDC?sq=885012106031#885012106031"
 			(at 128.27 165.1 0)
 			(effects
 				(font
@@ -12697,7 +12697,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 132.588 166.878 0)
+			(at 139.954 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12756,7 +12756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
 			(at 207.01 86.36 0)
 			(effects
 				(font
@@ -12826,7 +12826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
 			(at 228.6 87.63 0)
 			(effects
 				(font
@@ -12895,7 +12895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.rs-online.com/web/p/resistances-a-montage-en-surface/2426850?searchId=5960a329-c1f5-477d-b4eb-a9018fd0a253&gb=s"
 			(at 129.54 180.34 0)
 			(effects
 				(font
@@ -12963,7 +12963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080RS75000.pdf"
 			(at 115.57 130.81 0)
 			(effects
 				(font
@@ -13172,7 +13172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080RS75000.pdf"
 			(at 115.57 134.62 0)
 			(effects
 				(font
@@ -13249,7 +13249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.rs-online.com/web/p/resistances-a-montage-en-surface/1995497?searchId=1d682765-f7fd-4c90-8fa5-1dd0058c9286&gb=s"
 			(at 252.73 143.51 0)
 			(effects
 				(font
@@ -13385,7 +13385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
 			(at 77.47 60.96 0)
 			(effects
 				(font
@@ -13519,7 +13519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.rs-online.com/web/p/resistances-a-montage-en-surface/2426850?searchId=5960a329-c1f5-477d-b4eb-a9018fd0a253&gb=s"
 			(at 121.92 180.34 0)
 			(effects
 				(font
@@ -13589,7 +13589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.farnell.com/te-connectivity-neohm/crg0603j10k/res-10k-5-0-1w-0603-couche-epaisse/dp/3399584"
 			(at 52.07 43.18 0)
 			(effects
 				(font
@@ -13722,7 +13722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.rs-online.com/web/p/resistances-a-montage-en-surface/1995497?searchId=1d682765-f7fd-4c90-8fa5-1dd0058c9286&gb=s"
 			(at 251.46 158.75 0)
 			(effects
 				(font
@@ -13790,7 +13790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.rs-online.com/web/p/resistances-a-montage-en-surface/1995497?searchId=1d682765-f7fd-4c90-8fa5-1dd0058c9286&gb=s"
 			(at 107.95 127 0)
 			(effects
 				(font
@@ -13927,7 +13927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
 			(at 250.19 87.63 0)
 			(effects
 				(font
@@ -13997,7 +13997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.farnell.com/te-connectivity-neohm/crg0603j10k/res-10k-5-0-1w-0603-couche-epaisse/dp/3399584"
 			(at 57.15 92.71 0)
 			(effects
 				(font
@@ -14067,7 +14067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
 			(at 186.69 86.36 0)
 			(effects
 				(font
@@ -14202,7 +14202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080RS75000.pdf"
 			(at 260.35 130.81 0)
 			(effects
 				(font
@@ -14449,7 +14449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/418127270904/5208907"
 			(at 33.02 85.09 0)
 			(effects
 				(font
@@ -14999,7 +14999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.farnell.com/te-connectivity-neohm/crg0603j10k/res-10k-5-0-1w-0603-couche-epaisse/dp/3399584"
 			(at 46.99 43.18 0)
 			(effects
 				(font
@@ -15199,7 +15199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080RS75000.pdf"
 			(at 260.35 137.16 0)
 			(effects
 				(font
@@ -15345,7 +15345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.farnell.com/te-connectivity-neohm/crg0603j10k/res-10k-5-0-1w-0603-couche-epaisse/dp/3399584"
 			(at 52.07 92.71 0)
 			(effects
 				(font
@@ -15480,7 +15480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.farnell.com/te-connectivity-neohm/crg0603j10k/res-10k-5-0-1w-0603-couche-epaisse/dp/3399584"
 			(at 41.91 92.71 0)
 			(effects
 				(font
@@ -15655,7 +15655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.farnell.com/te-connectivity-neohm/crg0603j10k/res-10k-5-0-1w-0603-couche-epaisse/dp/3399584"
 			(at 95.25 44.45 0)
 			(effects
 				(font
@@ -16228,7 +16228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
 			(at 166.37 86.36 0)
 			(effects
 				(font
@@ -16497,7 +16497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.rs-online.com/web/p/resistances-a-montage-en-surface/1995497?searchId=1d682765-f7fd-4c90-8fa5-1dd0058c9286&gb=s"
 			(at 252.73 130.81 0)
 			(effects
 				(font
