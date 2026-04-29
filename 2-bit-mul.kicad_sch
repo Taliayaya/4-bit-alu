@@ -6331,7 +6331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 134.62 133.3562 0)
 			(effects
 				(font
@@ -6639,7 +6639,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 30.48 133.3562 0)
 			(effects
 				(font
@@ -7154,7 +7154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 81.28 132.0862 0)
 			(effects
 				(font

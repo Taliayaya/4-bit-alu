@@ -9573,7 +9573,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0603FR-07220RL"
+		(property "Value" "220Ω"
 			(at 252.73 134.366 90)
 			(effects
 				(font
@@ -9719,7 +9719,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10kΩ"
 			(at 102.87 45.7199 0)
 			(effects
 				(font
@@ -9980,7 +9980,7 @@
 		(dnp no)
 		(uuid "0b13e123-88c2-4b00-91df-ca037752fc89")
 		(property "Reference" "R14"
-			(at 108.458 45.72 90)
+			(at 108.204 46.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9988,7 +9988,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10kΩ"
 			(at 113.03 45.7199 0)
 			(effects
 				(font
@@ -10292,7 +10292,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0603FR-07220RL"
+		(property "Value" "220Ω"
 			(at 107.95 131.826 90)
 			(effects
 				(font
@@ -10629,7 +10629,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10kΩ"
 			(at 44.45 44.4499 0)
 			(effects
 				(font
@@ -10996,7 +10996,7 @@
 		(dnp no)
 		(uuid "3ff65a93-a13a-451e-8f62-eb7b84ff10f6")
 		(property "Reference" "R10"
-			(at 103.378 45.72 90)
+			(at 103.378 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,7 +11004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10kΩ"
 			(at 107.95 45.7199 0)
 			(effects
 				(font
@@ -11561,7 +11561,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0603FR-07220RL"
+		(property "Value" "220Ω"
 			(at 252.73 147.066 90)
 			(effects
 				(font
@@ -11630,7 +11630,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10kΩ"
 			(at 59.69 44.4499 0)
 			(effects
 				(font
@@ -12044,7 +12044,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0603FR-07220RL"
+		(property "Value" "220Ω"
 			(at 107.95 128.016 90)
 			(effects
 				(font
@@ -12444,7 +12444,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10kΩ"
 			(at 49.53 93.9799 0)
 			(effects
 				(font
@@ -12668,7 +12668,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "885012106031"
+		(property "Value" "10uF"
 			(at 132.08 166.3699 0)
 			(effects
 				(font
@@ -12738,7 +12738,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 209.55 87.6362 0)
 			(effects
 				(font
@@ -12808,7 +12808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 231.14 88.9062 0)
 			(effects
 				(font
@@ -12869,7 +12869,7 @@
 		(dnp no)
 		(uuid "88edaaea-b92e-4a47-864c-2c003035c4a0")
 		(property "Reference" "R16"
-			(at 131.572 178.816 0)
+			(at 132.08 182.372 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12877,14 +12877,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RC0603JR-075K1L"
-			(at 132.08 181.6099 0)
+		(property "Value" "5.1kΩ"
+			(at 127.254 183.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -12911,6 +12910,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13231,7 +13231,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0603FR-07220RL"
+		(property "Value" "220Ω"
 			(at 252.73 140.716 90)
 			(effects
 				(font
@@ -13367,7 +13367,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 74.676 65.786 0)
 			(effects
 				(font
@@ -13493,7 +13493,7 @@
 		(dnp no)
 		(uuid "9a1931f3-9c88-45b1-8d1d-6aca67dc9154")
 		(property "Reference" "R15"
-			(at 123.952 178.816 0)
+			(at 124.206 182.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13501,14 +13501,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RC0603JR-075K1L"
-			(at 124.46 181.6099 0)
+		(property "Value" "5.1kΩ"
+			(at 119.634 183.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -13535,6 +13534,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13570,7 +13570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10kΩ"
 			(at 54.61 44.4499 0)
 			(effects
 				(font
@@ -13704,7 +13704,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0603FR-07220RL"
+		(property "Value" "220Ω"
 			(at 251.46 155.956 90)
 			(effects
 				(font
@@ -13772,7 +13772,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0603FR-07220RL"
+		(property "Value" "220Ω"
 			(at 107.95 124.206 90)
 			(effects
 				(font
@@ -13909,7 +13909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 252.73 88.9062 0)
 			(effects
 				(font
@@ -13978,7 +13978,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10kΩ"
 			(at 59.69 93.9799 0)
 			(effects
 				(font
@@ -14049,7 +14049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 189.23 87.6362 0)
 			(effects
 				(font
@@ -14980,7 +14980,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10kΩ"
 			(at 49.53 44.4499 0)
 			(effects
 				(font
@@ -15326,7 +15326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10kΩ"
 			(at 54.61 93.9799 0)
 			(effects
 				(font
@@ -15461,7 +15461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10kΩ"
 			(at 44.45 93.9799 0)
 			(effects
 				(font
@@ -15628,7 +15628,7 @@
 		(dnp no)
 		(uuid "e58027f4-0d18-42ff-adfd-8b57f76aadfb")
 		(property "Reference" "R8"
-			(at 92.964 46.99 90)
+			(at 92.964 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15636,7 +15636,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CRG0603J10K - 3399584"
+		(property "Value" "10kΩ"
 			(at 97.79 45.7199 0)
 			(effects
 				(font
@@ -16210,7 +16210,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 168.91 87.6362 0)
 			(effects
 				(font
@@ -16479,7 +16479,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0603FR-07220RL"
+		(property "Value" "220Ω"
 			(at 252.73 128.016 90)
 			(effects
 				(font

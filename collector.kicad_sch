@@ -2222,7 +2222,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 54.61 127.0062 0)
 			(effects
 				(font
